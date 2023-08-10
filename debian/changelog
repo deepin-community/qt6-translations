@@ -1,11 +1,97 @@
-qt6-translations (6.2.4.1-1+dde) stable; urgency=medium
+qt6-translations (6.4.2-1) unstable; urgency=medium
 
-  * Adapt to V23.
+  [ Patrick Franz ]
+  * Switch to the official 6.4.2 tarball, the tarball is the same.
 
- -- Lu YaNing <luyaning@uniontech.com>  Sun, 09 Oct 2022 17:46:10 +0800
+ -- Patrick Franz <deltaone@debian.org>  Tue, 24 Jan 2023 12:13:39 +0100
 
-qt6-translations (6.2.4-1+dde) stable; urgency=medium
+qt6-translations (6.4.2~rc1-2) unstable; urgency=medium
 
-  * ['Rebuild  against by  current gcc 11.2']
+  [ Patrick Franz ]
+  * Upload to unstable.
 
- -- Deepin Packages Builder <packages@deepin.org>  Wed, 31 Aug 2022 15:01:59 +0800
+ -- Patrick Franz <deltaone@debian.org>  Fri, 30 Dec 2022 16:59:12 +0100
+
+qt6-translations (6.4.2~rc1-1) experimental; urgency=medium
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * New upstream release.
+    - Bump Qt build dependencies.
+  * Bump standards version to 4.6.2, no changes required.
+
+ -- Patrick Franz <deltaone@debian.org>  Tue, 27 Dec 2022 22:27:51 +0100
+
+qt6-translations (6.4.1-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (6.4.1).
+  * Bump Qt B-Ds to 6.4.1.
+
+ -- Patrick Franz <deltaone@debian.org>  Thu, 17 Nov 2022 14:57:21 +0100
+
+qt6-translations (6.4.0-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (6.4.0).
+  * Bump Qt B-Ds to 6.4.0.
+
+ -- Patrick Franz <deltaone@debian.org>  Thu, 13 Oct 2022 12:32:03 +0200
+
+qt6-translations (6.3.1-2) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * Upload to unstable.
+
+ -- Patrick Franz <deltaone@debian.org>  Mon, 15 Aug 2022 19:24:02 +0200
+
+qt6-translations (6.3.1-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (6.3.1).
+  * Bump Qt B-Ds to 6.3.1.
+  * Bump Standards-Version to 4.6.1 (no changes needed).
+
+ -- Patrick Franz <deltaone@debian.org>  Sun, 17 Jul 2022 18:49:02 +0200
+
+qt6-translations (6.3.0-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (6.3.0).
+  * Bump Qt B-Ds to 6.3.0.
+
+ -- Patrick Franz <deltaone@debian.org>  Tue, 14 Jun 2022 21:07:30 +0200
+
+qt6-translations (6.2.4-2) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * Upload to unstable.
+
+ -- Patrick Franz <deltaone@debian.org>  Fri, 22 Apr 2022 20:07:43 +0200
+
+qt6-translations (6.2.4-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (6.2.4).
+  * Bump Qt B-Ds to 6.2.4.
+
+ -- Patrick Franz <deltaone@debian.org>  Fri, 01 Apr 2022 18:09:02 +0200
+
+qt6-translations (6.2.2-3) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * Upload to unstable.
+
+ -- Patrick Franz <deltaone@debian.org>  Tue, 15 Feb 2022 22:26:22 +0100
+
+qt6-translations (6.2.2-2) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * Source-only upload to experimental.
+
+ -- Patrick Franz <deltaone@debian.org>  Thu, 30 Dec 2021 16:33:50 +0100
+
+qt6-translations (6.2.2-1) experimental; urgency=medium
+
+  * Initial release (Closes: #999896)
+
+ -- Patrick Franz <deltaone@debian.org>  Sat, 11 Dec 2021 11:19:34 +0100
