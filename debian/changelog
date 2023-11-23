@@ -1,3 +1,11 @@
+qt6-translations (6.6.0-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (6.6.0).
+  * Bump Qt B-Ds to 6.6.0.
+
+ -- Patrick Franz <deltaone@debian.org>  Thu, 16 Nov 2023 22:08:40 +0100
+
 qt6-translations (6.4.2-1) unstable; urgency=medium
 
   [ Patrick Franz ]
