@@ -7,10 +7,10 @@ Build-Depends: cmake (>= 3.18~),
                debhelper-compat (= 13),
                ninja-build,
                pkg-config,
-               qt6-base-dev (>= 6.6.1+dfsg~),
-               qt6-l10n-tools (>= 6.6.1~),
-               qt6-tools-dev (>= 6.6.1~),
-               qt6-tools-dev-tools (>= 6.6.1~),
+               qt6-base-dev (>= 6.8.0+dfsg~),
+               qt6-l10n-tools (>= 6.8.0~),
+               qt6-tools-dev (>= 6.8.0~),
+               qt6-tools-dev-tools (>= 6.8.0~),
 Standards-Version: 4.6.2
 Homepage: https://www.qt.io/developers/
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt6/qt6-translations
