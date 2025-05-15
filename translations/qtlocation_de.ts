@@ -71,6 +71,17 @@ Bitte besuchen Sie https://developers.arcgis.com/authentication/accessing-arcgis
     </message>
 </context>
 <context>
+    <name>QDeclarativeNavigator</name>
+    <message>
+        <source>Plugin does not support navigation.</source>
+        <translation>Das Plugin unterstützt keine Navigation.</translation>
+    </message>
+    <message>
+        <source>Failed to create a navigator object.</source>
+        <translation>Es konnte kein Navigator-Objekt erstellt werden.</translation>
+    </message>
+</context>
+<context>
     <name>QGeoCodeReplyMapbox</name>
     <message>
         <source>Response parse error</source>
@@ -1389,9 +1400,9 @@ Bitte besuchen Sie https://www.mapbox.com</translation>
 <context>
     <name>QtLocationQML</name>
     <message>
-        <source>Qt Location requires apiKey parameter.
+        <source>Qt Location requires app_id and token parameters.
 Please register at https://developer.here.com/ to get your personal application credentials.</source>
-        <translation>Qt Location benötigt einen apiKey-Parameter.
+        <translation>Qt Location benötigt die app_id und token Parameter.
 Bitte registrieren Sie sich unter https://developer.here.com/ um Ihre persönlichen Anmeldedaten zu erhalten.</translation>
     </message>
     <message>

@@ -120,7 +120,7 @@ Es wird mit einer einfachen Universalform gearbeitet.</translation>
     </message>
     <message>
         <source>%1 (%2)</source>
-        <extracomment>&lt;language&gt; (&lt;territory&gt;)</extracomment>
+        <extracomment>&lt;language&gt; (&lt;country&gt;)</extracomment>
         <translation>%1 (%2)</translation>
     </message>
     <message>
@@ -1687,8 +1687,8 @@ Zeile: %2</translation>
         <translation>%1 (%2)</translation>
     </message>
     <message>
-        <source>Any Territory</source>
-        <translation>Beliebiges Territorium</translation>
+        <source>Any Country</source>
+        <translation>Land</translation>
     </message>
     <message>
         <source>Settings for &apos;%1&apos; - Qt Linguist</source>

@@ -225,11 +225,7 @@
     <name>QApplication</name>
     <message>
         <source>Executable &apos;%1&apos; requires Qt %2, found Qt %3.</source>
-        <translation type="vanished">L&apos;executable «%1» requereix les Qt %2, s&apos;han trobat les Qt %3.</translation>
-    </message>
-    <message>
-        <source>Application &quot;%1&quot; requires Qt %2, found Qt %3.</source>
-        <translation>L&apos;aplicació «%1» requereix les Qt %2, s&apos;han trobat les Qt %3.</translation>
+        <translation>L&apos;executable «%1» requereix les Qt %2, s&apos;han trobat les Qt %3.</translation>
     </message>
     <message>
         <source>Incompatible Qt Library Error</source>
@@ -292,11 +288,11 @@
     </message>
     <message>
         <source>Start Dictation...</source>
-        <translation type="vanished">Inicia el dictat...</translation>
+        <translation>Inicia el dictat...</translation>
     </message>
     <message>
         <source>Emoji &amp;&amp; Symbols</source>
-        <translation type="vanished">Emojis i símbols</translation>
+        <translation>Emojis i símbols</translation>
     </message>
 </context>
 <context>
@@ -408,11 +404,7 @@ Premeu Esc per a cancel·lar</translation>
     </message>
     <message>
         <source>Displays help including Qt specific options.</source>
-        <translation type="vanished">Mostra l&apos;ajuda incloent les opcions específiques de les Qt.</translation>
-    </message>
-    <message>
-        <source>Displays help, including generic Qt options.</source>
-        <translation>Mostra l&apos;ajuda, incloent-hi les opcions genèriques de les Qt.</translation>
+        <translation>Mostra l&apos;ajuda incloent les opcions específiques de les Qt.</translation>
     </message>
     <message>
         <source>Unknown option &apos;%1&apos;.</source>
@@ -728,13 +720,32 @@ Premeu Esc per a cancel·lar</translation>
         <source>Operation cancelled</source>
         <translation>Operació cancel·lada</translation>
     </message>
+</context>
+<context>
+    <name>QDnsLookupRunnable</name>
+    <message>
+        <source>IPv6 addresses for nameservers are currently not supported</source>
+        <translation>Actualment les adreces IPv6 no estan admeses pels servidors de noms</translation>
+    </message>
     <message>
         <source>Invalid domain name</source>
         <translation>Nom de domini no vàlid</translation>
     </message>
     <message>
-        <source>Request timed out</source>
-        <translation>S&apos;ha excedit el temps d&apos;espera de la sol·licitud</translation>
+        <source>Not yet supported on Android</source>
+        <translation>Encara no està admès a l&apos;Android</translation>
+    </message>
+    <message>
+        <source>Resolver functions not found</source>
+        <translation>No s&apos;han trobat les funcions del resolutor</translation>
+    </message>
+    <message>
+        <source>Resolver initialization failed</source>
+        <translation>La inicialització del resolutor ha fallat</translation>
+    </message>
+    <message>
+        <source>IPv6 addresses for nameservers is currently not supported</source>
+        <translation type="vanished">Actualment les adreces IPv6 no són admeses pels servidors de noms</translation>
     </message>
     <message>
         <source>Server could not process query</source>
@@ -753,24 +764,8 @@ Premeu Esc per a cancel·lar</translation>
         <translation>El servidor ha refusat respondre</translation>
     </message>
     <message>
-        <source>Invalid reply received (rcode %1)</source>
-        <translation>S&apos;ha rebut una resposta no vàlida (rcode %1)</translation>
-    </message>
-    <message>
         <source>Invalid reply received</source>
         <translation>S&apos;ha rebut una resposta no vàlida</translation>
-    </message>
-    <message>
-        <source>Invalid reply received (%1)</source>
-        <translation>S&apos;ha rebut una resposta no vàlida (%1)</translation>
-    </message>
-    <message>
-        <source>IPv6 nameservers are currently not supported on this OS</source>
-        <translation>Els servidors de noms IPv6 no estan implementats actualment en aquest SO</translation>
-    </message>
-    <message>
-        <source>Reply was too large</source>
-        <translation>La resposta era massa llarga</translation>
     </message>
     <message>
         <source>Could not expand domain name</source>
@@ -808,92 +803,9 @@ Premeu Esc per a cancel·lar</translation>
         <source>Invalid text record</source>
         <translation>Registre no vàlid de text</translation>
     </message>
-</context>
-<context>
-    <name>QDnsLookupRunnable</name>
-    <message>
-        <source>IPv6 addresses for nameservers are currently not supported</source>
-        <translation type="vanished">Actualment les adreces IPv6 no estan admeses pels servidors de noms</translation>
-    </message>
-    <message>
-        <source>Invalid domain name</source>
-        <translation type="vanished">Nom de domini no vàlid</translation>
-    </message>
-    <message>
-        <source>Not yet supported on Android</source>
-        <translation type="vanished">Encara no està admès a l&apos;Android</translation>
-    </message>
-    <message>
-        <source>Resolver functions not found</source>
-        <translation type="vanished">No s&apos;han trobat les funcions del resolutor</translation>
-    </message>
-    <message>
-        <source>Resolver initialization failed</source>
-        <translation type="vanished">La inicialització del resolutor ha fallat</translation>
-    </message>
-    <message>
-        <source>IPv6 addresses for nameservers is currently not supported</source>
-        <translation type="vanished">Actualment les adreces IPv6 no són admeses pels servidors de noms</translation>
-    </message>
-    <message>
-        <source>Server could not process query</source>
-        <translation type="vanished">El servidor no ha pogut processar la consulta</translation>
-    </message>
-    <message>
-        <source>Server failure</source>
-        <translation type="vanished">Fallada del servidor</translation>
-    </message>
-    <message>
-        <source>Non existent domain</source>
-        <translation type="vanished">Domini no existent</translation>
-    </message>
-    <message>
-        <source>Server refused to answer</source>
-        <translation type="vanished">El servidor ha refusat respondre</translation>
-    </message>
-    <message>
-        <source>Invalid reply received</source>
-        <translation type="vanished">S&apos;ha rebut una resposta no vàlida</translation>
-    </message>
-    <message>
-        <source>Could not expand domain name</source>
-        <translation type="vanished">No s&apos;ha pogut expandir el nom de domini</translation>
-    </message>
-    <message>
-        <source>Invalid IPv4 address record</source>
-        <translation type="vanished">Registre no vàlid d&apos;adreça IPv4</translation>
-    </message>
-    <message>
-        <source>Invalid IPv6 address record</source>
-        <translation type="vanished">Registre no vàlid d&apos;adreça IPv6</translation>
-    </message>
-    <message>
-        <source>Invalid canonical name record</source>
-        <translation type="vanished">Registre no vàlid de nom canònic</translation>
-    </message>
-    <message>
-        <source>Invalid name server record</source>
-        <translation type="vanished">Registre no vàlid de servidor de noms</translation>
-    </message>
-    <message>
-        <source>Invalid pointer record</source>
-        <translation type="vanished">Registre no vàlid de punter de noms</translation>
-    </message>
-    <message>
-        <source>Invalid mail exchange record</source>
-        <translation type="vanished">Registre no vàlid d&apos;intercanvi de correu</translation>
-    </message>
-    <message>
-        <source>Invalid service record</source>
-        <translation type="vanished">Registre no vàlid de servei</translation>
-    </message>
-    <message>
-        <source>Invalid text record</source>
-        <translation type="vanished">Registre no vàlid de text</translation>
-    </message>
     <message>
         <source>Resolver library can&apos;t be loaded: No runtime library loading support</source>
-        <translation type="vanished">No s&apos;ha pogut carregar la biblioteca de resolució: No s&apos;admet la càrrega de biblioteques en execució</translation>
+        <translation>No s&apos;ha pogut carregar la biblioteca de resolució: No s&apos;admet la càrrega de biblioteques en execució</translation>
     </message>
     <message>
         <source>No hostname given</source>
@@ -910,10 +822,6 @@ Premeu Esc per a cancel·lar</translation>
     <message>
         <source>Unknown error</source>
         <translation type="vanished">Error desconegut</translation>
-    </message>
-    <message>
-        <source>Not yet supported on this OS</source>
-        <translation>Encara no està implementat en aquest SO</translation>
     </message>
 </context>
 <context>
@@ -1133,10 +1041,6 @@ Premeu Esc per a cancel·lar</translation>
 </context>
 <context>
     <name>QErrorMessage</name>
-    <message>
-        <source>An error occurred</source>
-        <translation>S&apos;ha produït un error</translation>
-    </message>
     <message>
         <source>Debug Message:</source>
         <translation>Missatge de depuració:</translation>
@@ -1754,22 +1658,22 @@ El voleu suprimir igualment?</translation>
     </message>
     <message>
         <source>N&apos;Ko</source>
-        <translation>Nko</translation>
+        <translation>N&apos;Ko</translation>
     </message>
 </context>
 <context>
     <name>QFontDialog</name>
     <message>
         <source>Select Font</source>
-        <translation>Seleccioneu la lletra</translation>
+        <translation>Seleccioneu el tipus de lletra</translation>
     </message>
     <message>
         <source>&amp;Font</source>
-        <translation>&amp;Lletra</translation>
+        <translation>&amp;Tipus de lletra</translation>
     </message>
     <message>
         <source>Font st&amp;yle</source>
-        <translation>Est&amp;il de la lletra</translation>
+        <translation>Est&amp;il de tipus de lletra</translation>
     </message>
     <message>
         <source>&amp;Size</source>
@@ -2094,7 +1998,7 @@ El voleu suprimir igualment?</translation>
     </message>
     <message>
         <source>Data downloaded is too large to store</source>
-        <translation>Les dades baixades són massa grans per a emmagatzemar</translation>
+        <translation>Les dades baixades són massa grans per emmagatzemar</translation>
     </message>
     <message>
         <source>Failed to initialize decompression: %1</source>
@@ -2142,10 +2046,6 @@ El voleu suprimir igualment?</translation>
 </context>
 <context>
     <name>QIBaseDriver</name>
-    <message>
-        <source>failed to query time zone mapping from system table</source>
-        <translation>ha fallat en consultar el mapatge de la zona horària des de la taula del sistema</translation>
-    </message>
     <message>
         <source>Error opening database</source>
         <translation>Error en obrir la base de dades</translation>
@@ -2476,7 +2376,7 @@ El voleu suprimir igualment?</translation>
     </message>
     <message>
         <source>entrypoint to query the plugin meta data not found</source>
-        <translation>no s&apos;ha trobat punt d&apos;entrada per a consultar les metadades del connector</translation>
+        <translation>no s&apos;ha trobat punt d&apos;entrada per consultar les metadades del connector</translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; is not a valid Qt plugin.</source>
@@ -2533,10 +2433,6 @@ El voleu suprimir igualment?</translation>
     <message>
         <source>&apos;%1&apos; is not a valid ELF object (%2)</source>
         <translation>«%1» no és un objecte ELF vàlid (%2)</translation>
-    </message>
-    <message>
-        <source>unimplemented: PN_XNUM program headers</source>
-        <translation>sense implementar: capçaleres de programa PN_XNUM</translation>
     </message>
     <message>
         <source>program header table extends past the end of the file</source>
@@ -3406,10 +3302,6 @@ applications where you wish to use such applications in combination with softwar
     <message>
         <source>Unable to connect</source>
         <translation>No s&apos;ha pogut connectar</translation>
-    </message>
-    <message>
-        <source>Unable to set client encoding to &apos;UNICODE&apos;</source>
-        <translation>No s&apos;ha pogut establir la codificació del client a «UNICODE»</translation>
     </message>
     <message>
         <source>Could not begin transaction</source>
@@ -4617,22 +4509,6 @@ Desactiveu una de les dues opcions.</translation>
         <translation>No s&apos;ha pogut obrir la redirecció d&apos;entrada per lectura</translation>
     </message>
     <message>
-        <source>Child process modifier threw an exception: %1</source>
-        <translation>El modificador del procés fill ha generat una excepció: %1</translation>
-    </message>
-    <message>
-        <source>Child process modifier reported error: %1</source>
-        <translation>El modificador del procés fill ha informat un error: %1</translation>
-    </message>
-    <message>
-        <source>Child process modifier reported error: %1: %2</source>
-        <translation>El modificador del procés fill ha informat un error: %1: %2</translation>
-    </message>
-    <message>
-        <source>Child process set up failed: %1: %2</source>
-        <translation>Ha fallat la configuració del procés fill: %1: %2</translation>
-    </message>
-    <message>
         <source>Could not open output redirection for writing</source>
         <translation>No s&apos;ha pogut obrir la redirecció d&apos;entrada per escriptura</translation>
     </message>
@@ -5785,15 +5661,7 @@ Desactiveu una de les dues opcions.</translation>
     <name>QSharedMemory</name>
     <message>
         <source>%1: unable to set key on lock</source>
-        <translation type="vanished">%1: no s&apos;ha pogut establir la clau del bloqueig</translation>
-    </message>
-    <message>
-        <source>%1: unsupported key type</source>
-        <translation>%1: tipus de clau no admès</translation>
-    </message>
-    <message>
-        <source>%1: unable to set key on lock (%2)</source>
-        <translation>%1: no s&apos;ha pogut establir la clau del bloqueig (%2)</translation>
+        <translation>%1: no s&apos;ha pogut establir la clau del bloqueig</translation>
     </message>
     <message>
         <source>%1: create size is less then 0</source>
@@ -5824,12 +5692,8 @@ Desactiveu una de les dues opcions.</translation>
         <translation>%1: sense recursos</translation>
     </message>
     <message>
-        <source>%1: unknown error: %2</source>
-        <translation>%1: error desconegut: %2</translation>
-    </message>
-    <message>
         <source>%1: unknown error %2</source>
-        <translation type="vanished">%1: error desconegut %2</translation>
+        <translation>%1: error desconegut %2</translation>
     </message>
     <message>
         <source>%1: key is empty</source>
@@ -5841,11 +5705,11 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>%1: UNIX key file doesn&apos;t exist</source>
-        <translation type="vanished">%1: no existeix el fitxer de claus de l&apos;UNIX</translation>
+        <translation>%1: no existeix el fitxer de claus de l&apos;UNIX</translation>
     </message>
     <message>
         <source>%1: ftok failed</source>
-        <translation type="vanished">%1: ha fallat el «ftok»</translation>
+        <translation>%1: ha fallat el «ftok»</translation>
     </message>
     <message>
         <source>%1: unable to make key</source>
@@ -7791,7 +7655,7 @@ Role of an accessible object</extracomment>
     </message>
     <message>
         <source>Fonts</source>
-        <translation>Lletres</translation>
+        <translation>Tipus de lletra</translation>
     </message>
     <message>
         <source>Applications</source>
@@ -7820,14 +7684,6 @@ Role of an accessible object</extracomment>
     <message>
         <source>Application Data</source>
         <translation>Dades d&apos;aplicació</translation>
-    </message>
-    <message>
-        <source>State</source>
-        <translation>Estat</translation>
-    </message>
-    <message>
-        <source>Shared State</source>
-        <translation>Estat compartit</translation>
     </message>
     <message>
         <source>Application Configuration</source>
@@ -7901,10 +7757,6 @@ Role of an accessible object</extracomment>
 <context>
     <name>QSystemSemaphore</name>
     <message>
-        <source>%1: unsupported key type</source>
-        <translation>%1: tipus de clau no admès</translation>
-    </message>
-    <message>
         <source>%1: permission denied</source>
         <translation>%1: s&apos;ha denegat el permís</translation>
     </message>
@@ -7925,12 +7777,8 @@ Role of an accessible object</extracomment>
         <translation>%1: la clau és massa llarga</translation>
     </message>
     <message>
-        <source>%1: unknown error: %2</source>
-        <translation>%1: error desconegut: %2</translation>
-    </message>
-    <message>
         <source>%1: unknown error %2</source>
-        <translation type="vanished">%1: error desconegut %2</translation>
+        <translation>%1: error desconegut %2</translation>
     </message>
     <message>
         <source>%1: key is empty</source>
@@ -8023,10 +7871,6 @@ Role of an accessible object</extracomment>
     <message>
         <source>Could not reset to read data</source>
         <translation>No s&apos;ha pogut reiniciar la lectura de les dades</translation>
-    </message>
-    <message>
-        <source>Invalid color map depth (%1)</source>
-        <translation>Profunditat del mapa de color no vàlida (%1)</translation>
     </message>
 </context>
 <context>
@@ -8433,20 +8277,8 @@ La versió mínima requerida del Direct2D és %1. La versió del Direct2D en aqu
         <translation>L&apos;autònom només accepta sí o no.</translation>
     </message>
     <message>
-        <source>Invalid attribute in XML declaration: %1 = %2</source>
-        <translation>Atribut no vàlid a la declaració de l&apos;XML: %1 = %2</translation>
-    </message>
-    <message>
-        <source>Unexpected token type %1 in %2.</source>
-        <translation>Tipus de testimoni inesperat %1 a %2.</translation>
-    </message>
-    <message>
-        <source>Found second DTD token in %1.</source>
-        <translation>S&apos;ha trobat un segon testimoni DTD a %1.</translation>
-    </message>
-    <message>
         <source>Invalid attribute in XML declaration.</source>
-        <translation type="vanished">Atribut no vàlid a la declaració de l&apos;XML.</translation>
+        <translation>Atribut no vàlid a la declaració de l&apos;XML.</translation>
     </message>
     <message>
         <source>Premature end of document.</source>
@@ -8455,10 +8287,6 @@ La versió mínima requerida del Direct2D és %1. La versió del Direct2D en aqu
     <message>
         <source>Invalid document.</source>
         <translation>Document no vàlid.</translation>
-    </message>
-    <message>
-        <source>Length of XML attribute name exceeds implementation limits (4KiB characters).</source>
-        <translation>La longitud del nom de l&apos;atribut XML excedeix els límits d&apos;implementació (4 KiB de caràcters).</translation>
     </message>
     <message>
         <source>&apos;%1&apos;</source>
@@ -8682,7 +8510,7 @@ La versió mínima requerida del Direct2D és %1. La versió del Direct2D en aqu
     <name>QCocoaMenu</name>
     <message>
         <source>Edit</source>
-        <translation type="vanished">Edita</translation>
+        <translation>Edita</translation>
     </message>
 </context>
 <context>
@@ -8694,124 +8522,6 @@ La versió mínima requerida del Direct2D és %1. La versió del Direct2D en aqu
     <message>
         <source>unchecked</source>
         <translation>desactivat</translation>
-    </message>
-</context>
-<context>
-    <name>QCocoaMenuBar</name>
-    <message>
-        <source>Edit</source>
-        <translation>Edita</translation>
-    </message>
-</context>
-<context>
-    <name>QMimerSQL</name>
-    <message>
-        <source>No Mimer SQL error for code %1</source>
-        <translation>No hi ha cap error de l&apos;SQL del Mimer per al codi %1</translation>
-    </message>
-    <message>
-        <source>Generic Mimer SQL error</source>
-        <translation>Error genèric de l&apos;SQL del Mimer</translation>
-    </message>
-</context>
-<context>
-    <name>QMimerSQLResult</name>
-    <message>
-        <source>Could not get %1, column %2</source>
-        <extracomment>Data type, column</extracomment>
-        <translation>No s&apos;ha pogut obtenir %1, columna %2</translation>
-    </message>
-    <message>
-        <source>Could not set %1, parameter %2</source>
-        <extracomment>Data type, parameter</extracomment>
-        <translation>No s&apos;ha pogut establir %1, paràmetre %2</translation>
-    </message>
-    <message>
-        <source>Could not close cursor</source>
-        <translation>No s&apos;ha pogut tancar el cursor</translation>
-    </message>
-    <message>
-        <source>Could not close statement</source>
-        <translation>No s&apos;ha pogut tancar la sentència</translation>
-    </message>
-    <message>
-        <source>Fetch did not succeed</source>
-        <translation>No s&apos;ha pogut recuperar</translation>
-    </message>
-    <message>
-        <source>Fetch first did not succeed</source>
-        <translation>No s&apos;ha pogut recuperar el primer</translation>
-    </message>
-    <message>
-        <source>Could not fetch next row</source>
-        <translation>No s&apos;ha pogut recuperar la columna següent</translation>
-    </message>
-    <message>
-        <source>Unknown data type %1</source>
-        <translation>Tipus de dada desconeguda %1</translation>
-    </message>
-    <message>
-        <source>Could not check null, column %1</source>
-        <translation>No s&apos;ha pogut comprovar si és nul, columna %1</translation>
-    </message>
-    <message>
-        <source>Could not prepare/execute statement</source>
-        <translation>No s&apos;ha pogut preparar/executar la sentència</translation>
-    </message>
-    <message>
-        <source>Wrong number of parameters</source>
-        <translation>Nombre erroni de paràmetres</translation>
-    </message>
-    <message>
-        <source>Unknown datatype, parameter %1</source>
-        <translation>Tipus de dada desconeguda, paràmetre %1</translation>
-    </message>
-    <message>
-        <source>Could not execute statement/open cursor</source>
-        <translation>No s&apos;ha pogut executar la sentència/obrir el cursor</translation>
-    </message>
-    <message>
-        <source>Only input parameters can be used in batch operations</source>
-        <translation>Només es poden utilitzar paràmetres d&apos;entrada en operacions per lots</translation>
-    </message>
-    <message>
-        <source>Could not add batch %1</source>
-        <extracomment>%1 is the batch number</extracomment>
-        <translation>No s&apos;ha pogut afegir el lot %1</translation>
-    </message>
-    <message>
-        <source>Could not execute batch</source>
-        <translation>No s&apos;ha pogut executar el lot</translation>
-    </message>
-</context>
-<context>
-    <name>QMimerSQLResult:</name>
-    <message>
-        <source>Fetch last did not succeed</source>
-        <translation>No s&apos;ha pogut recuperar l&apos;últim</translation>
-    </message>
-    <message>
-        <source>Column %1 out of range</source>
-        <translation>La columna %1 està fora de l&apos;interval</translation>
-    </message>
-</context>
-<context>
-    <name>QMimerSQLDriver</name>
-    <message>
-        <source>Could not connect to database</source>
-        <translation>No s&apos;ha pogut connectar a la base de dades</translation>
-    </message>
-    <message>
-        <source>Could not start transaction</source>
-        <translation>La transacció no ha pogut iniciar-se</translation>
-    </message>
-    <message>
-        <source>Could not commit transaction</source>
-        <translation>La transacció no ha pogut confirmar-se</translation>
-    </message>
-    <message>
-        <source>Could not roll back transaction</source>
-        <translation>La transacció no ha pogut desfer-se</translation>
     </message>
 </context>
 </TS>

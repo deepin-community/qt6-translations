@@ -1,5 +1,4 @@
 version: 2
-alias: qttranslations
 accept_configuration:
   condition: property
   property: features

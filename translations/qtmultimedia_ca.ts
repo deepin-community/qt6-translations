@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ca_ES">
+<TS version="2.1" language="ca">
 <context>
     <name>AudioContainerControl</name>
     <message>
@@ -327,10 +327,6 @@
     <message>
         <source>Media session state error.</source>
         <translation>Error d&apos;estat de la sessió multimèdia.</translation>
-    </message>
-    <message>
-        <source>Invalid stream data.</source>
-        <translation>Flux de dades no vàlid.</translation>
     </message>
     <message>
         <source>Media session serious error.</source>
@@ -762,10 +758,6 @@
         <source>No camera or audio input</source>
         <translation>No hi ha entrada de càmera o àudio</translation>
     </message>
-    <message>
-        <source>No video or audio input</source>
-        <translation>No hi ha entrada de vídeo o àudio</translation>
-    </message>
 </context>
 <context>
     <name>QMediaMetaData</name>
@@ -889,10 +881,6 @@
         <translation>No s&apos;ha pogut establir l&apos;origen, s&apos;ha proporcionat un tipus MIME no vàlid per l&apos;origen.</translation>
     </message>
     <message>
-        <source>Cannot open the file</source>
-        <translation>No s&apos;ha pogut obrir el fitxer</translation>
-    </message>
-    <message>
         <source>Invalid fileDescriptor for source.</source>
         <translation>«fileDescriptor» no vàlid per l&apos;origen.</translation>
     </message>
@@ -1012,7 +1000,7 @@
     <name>QV4L2Camera</name>
     <message>
         <source>Camera is in use.</source>
-        <translation type="vanished">La càmera està en ús.</translation>
+        <translation>La càmera està en ús.</translation>
     </message>
 </context>
 <context>

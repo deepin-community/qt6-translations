@@ -5,18 +5,18 @@
     <name>AudioContainerControl</name>
     <message>
         <source>RAW (headerless) file format</source>
-        <translation>RAW (başlıksız) dosyası biçimi</translation>
+        <translation>RAW (başlıksız) dosya biçimi</translation>
     </message>
     <message>
         <source>WAV file format</source>
-        <translation>WAV dosyası biçimi</translation>
+        <translation>WAV dosya biçimi</translation>
     </message>
 </context>
 <context>
     <name>AudioEncoderControl</name>
     <message>
         <source>Linear PCM audio data</source>
-        <translation>Doğrusal PCM ses verisi</translation>
+        <translation>Doğrusal PCM ses verileri</translation>
     </message>
 </context>
 <context>
@@ -30,14 +30,14 @@
     <name>CameraBinImageEncoder</name>
     <message>
         <source>JPEG image</source>
-        <translation>JPEG görseli</translation>
+        <translation>JPEG resmi</translation>
     </message>
 </context>
 <context>
     <name>CameraBinRecorder</name>
     <message>
         <source>QMediaRecorder::pause() is not supported by camerabin2.</source>
-        <translation>QMediaRecorder::pause() camerabin2 tarafından desteklenmiyor.</translation>
+        <translation>QMediaRecorder::pause() camerabin2 tarafından desteklenmez.</translation>
     </message>
     <message>
         <source>Service has not been started</source>
@@ -45,7 +45,7 @@
     </message>
     <message>
         <source>Recording permissions are not available</source>
-        <translation>Kayıt izinleri kullanılabilir değil</translation>
+        <translation>Kayıt izinleri mevcut değil</translation>
     </message>
 </context>
 <context>
@@ -67,7 +67,7 @@
     </message>
     <message>
         <source>Failed to get stream control</source>
-        <translation>Akış denetimi alınamadı</translation>
+        <translation>Akış kontrolü alınamadı</translation>
     </message>
     <message>
         <source>Failed to start</source>
@@ -83,19 +83,19 @@
     </message>
     <message>
         <source>Could not save image to file.</source>
-        <translation>Görsel dosyaya kaydedilemedi.</translation>
+        <translation>Resim dosyaya kaydedilemedi.</translation>
     </message>
     <message>
         <source>Failed to create filter graph</source>
-        <translation>Süzgeç grafiği oluşturulamadı</translation>
+        <translation>Filtre grafiği oluşturulamadı</translation>
     </message>
     <message>
         <source>Failed to create graph builder</source>
-        <translation>Grafik yapıcı oluşturulamadı</translation>
+        <translation>Grafik oluşturucu oluşturulamadı</translation>
     </message>
     <message>
         <source>Failed to connect capture graph and filter graph</source>
-        <translation>Yakalama grafiği ve süzgeç grafiği bağlanılamadı</translation>
+        <translation>Yakalama grafiği ve filtre grafiği bağlanılamadı</translation>
     </message>
     <message>
         <source>No capture device found</source>
@@ -103,7 +103,7 @@
     </message>
     <message>
         <source>Failed to create null renderer</source>
-        <translation>Boş sunumcu oluşturulamadı</translation>
+        <translation>Boş oluşturucu oluşturulamadı</translation>
     </message>
 </context>
 <context>
@@ -126,7 +126,7 @@
     </message>
     <message>
         <source>Unsupported media type.</source>
-        <translation>Desteklenmeyen ortam türü.</translation>
+        <translation>Desteklenmeyen medya türü.</translation>
     </message>
     <message>
         <source>Failed to load source.</source>
@@ -142,7 +142,7 @@
     </message>
     <message>
         <source>Failed to create topology.</source>
-        <translation>İlinge oluşturulamadı.</translation>
+        <translation>Topoloji oluşturulamadı.</translation>
     </message>
     <message>
         <source>Unable to play any stream.</source>
@@ -154,7 +154,7 @@
     </message>
     <message>
         <source>Failed to set topology.</source>
-        <translation>İlinge ayarlanamadı.</translation>
+        <translation>Topoloji ayarlanamadı.</translation>
     </message>
     <message>
         <source>Unknown stream type.</source>
@@ -174,7 +174,7 @@
     </message>
     <message>
         <source>Unable to create mediasession.</source>
-        <translation>Ortam oturumu oluşturulamıyor.</translation>
+        <translation>Medya oturumu oluşturulamıyor.</translation>
     </message>
     <message>
         <source>Unable to pull session events.</source>
@@ -186,30 +186,30 @@
     </message>
     <message>
         <source>Media session non-fatal error.</source>
-        <translation>Ortam oturumunda önemsiz hata.</translation>
+        <translation>Medya oturumu önemsiz hata.</translation>
     </message>
     <message>
         <source>Media session serious error.</source>
-        <translation>Ortam oturumunda ciddi hata.</translation>
+        <translation>Medya oturumu ciddi hata.</translation>
     </message>
     <message>
         <source>Unsupported media, a codec is missing.</source>
-        <translation>Desteklenmeyen ortam, bir kod çözücü bileşeni eksik.</translation>
+        <translation>Desteklenmeyen medya, bir kodek bileşeni eksik.</translation>
     </message>
 </context>
 <context>
     <name>QAndroidAudioEncoderSettingsControl</name>
     <message>
         <source>Adaptive Multi-Rate Narrowband (AMR-NB) audio codec</source>
-        <translation>Uyarlanabilir Çok Hızlı Dar Bant (AMR-NB) ses kod çözücüsü bileşeni</translation>
+        <translation>Uyarlanabilir Çok Hızlı Dar Bant (AMR-NB) ses kodek bileşeni</translation>
     </message>
     <message>
         <source>Adaptive Multi-Rate Wideband (AMR-WB) audio codec</source>
-        <translation>Uyarlanabilir Çok Hızlı Geniş Bant (AMR-WB) ses kod çözücüsü bileşeni</translation>
+        <translation>Uyarlanabilir Çok Hızlı Geniş Bant (AMR-WB) ses kodek bileşeni</translation>
     </message>
     <message>
         <source>AAC Low Complexity (AAC-LC) audio codec</source>
-        <translation>AAC Düşük Karmaşıklık (AAC-LC) ses kod çözücüsü bileşeni</translation>
+        <translation>AAC Düşük Karmaşıklık (AAC-LC) ses kodek bileşeni</translation>
     </message>
 </context>
 <context>
@@ -221,11 +221,11 @@
     <message>
         <source>Drive mode not supported</source>
         <extracomment>Drive mode is the camera&apos;s shutter mode, for example single shot, continuos exposure, etc.</extracomment>
-        <translation>Sürüş kipi, kameranın deklanşör kipidir; örneğin, tek poz, sürekli pozlama vb.</translation>
+        <translation>Sürüş modu desteklenmiyor</translation>
     </message>
     <message>
         <source>Failed to capture image</source>
-        <translation>Görsel yakalanamadı</translation>
+        <translation>Resim çekilemedi</translation>
     </message>
     <message>
         <source>Camera preview failed to start.</source>
@@ -233,48 +233,48 @@
     </message>
     <message>
         <source>Could not open destination file: %1</source>
-        <translation>Hedef dosya açılamadı: %1</translation>
+        <translation>Hedef dosya açılamadı :%1</translation>
     </message>
 </context>
 <context>
     <name>QAndroidImageEncoderControl</name>
     <message>
         <source>JPEG image</source>
-        <translation>JPEG görseli</translation>
+        <translation>JPEG resmi</translation>
     </message>
 </context>
 <context>
     <name>QAndroidMediaContainerControl</name>
     <message>
         <source>MPEG4 media file format</source>
-        <translation>MPEG4 ortam dosyası biçimi</translation>
+        <translation>MPEG4 medya dosya biçimi</translation>
     </message>
     <message>
         <source>3GPP media file format</source>
-        <translation>3GPP ortam dosyası biçimi</translation>
+        <translation>3GPP medya dosya biçimi</translation>
     </message>
     <message>
         <source>AMR NB file format</source>
-        <translation>AMR NB dosyası biçimi</translation>
+        <translation>AMR NB dosya biçimi</translation>
     </message>
     <message>
         <source>AMR WB file format</source>
-        <translation>AMR WB dosyası biçimi</translation>
+        <translation>AMR WB dosya biçimi</translation>
     </message>
 </context>
 <context>
     <name>QAndroidVideoEncoderSettingsControl</name>
     <message>
         <source>H.263 compression</source>
-        <translation>H.263 sıkıştırması</translation>
+        <translation>H.263 sıkıştırma</translation>
     </message>
     <message>
         <source>H.264 compression</source>
-        <translation>H.264 sıkıştırması</translation>
+        <translation>H.264 sıkıştırma</translation>
     </message>
     <message>
         <source>MPEG-4 SP compression</source>
-        <translation>MPEG-4 SP sıkıştırması</translation>
+        <translation>MPEG-4 SP sıkıştırma</translation>
     </message>
 </context>
 <context>
@@ -295,28 +295,28 @@
     <name>QCameraImageCapture</name>
     <message>
         <source>Device does not support images capture.</source>
-        <translation>Aygıt görsel yakalamayı desteklemiyor.</translation>
+        <translation>Aygıt görüntü yakalamayı desteklemiyor.</translation>
     </message>
 </context>
 <context>
     <name>QDeclarativeAudio</name>
     <message>
         <source>volume should be between 0.0 and 1.0</source>
-        <translation>ses düzeyi 0,0 ile 1,0 arasında olmalıdır</translation>
+        <translation>hacim 0.0 ile 1.0 arasında olmalıdır</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerAudioDecoderSession</name>
     <message>
         <source>Cannot play stream of type: &lt;unknown&gt;</source>
-        <translation>Şu türdeki akış oynatılamıyor: &lt;bilinmeyen&gt;</translation>
+        <translation>Şu türde akış oynatılamıyor: &lt;unknown&gt;</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerAudioInputSelector</name>
     <message>
         <source>System default device</source>
-        <translation>Sistem öntanımlı aygıtı</translation>
+        <translation>Sistem varsayılan aygıtı</translation>
     </message>
 </context>
 <context>
@@ -330,11 +330,11 @@
     <name>QGstreamerCaptureSession</name>
     <message>
         <source>Could not create an audio source element</source>
-        <translation>Bir ses kaynağı ögesi oluşturulamadı</translation>
+        <translation>Ses kaynağı öğesi oluşturulamadı</translation>
     </message>
     <message>
         <source>Failed to build media capture pipeline.</source>
-        <translation>Ortam yakalama kanalı hattı oluşturulamadı.</translation>
+        <translation>Medya yakalama pipeline&apos;ı oluşturulamadı.</translation>
     </message>
 </context>
 <context>
@@ -348,7 +348,7 @@
     <name>QGstreamerImageEncode</name>
     <message>
         <source>JPEG image encoder</source>
-        <translation>JPEG görseli kodlayıcısı</translation>
+        <translation>JPEG resim kodlayıcı</translation>
     </message>
 </context>
 <context>
@@ -362,11 +362,11 @@
     <name>QGstreamerPlayerSession</name>
     <message>
         <source>Cannot play stream of type: &lt;unknown&gt;</source>
-        <translation>Şu türdeki akış oynatılamıyor: &lt;Bilinmeyen&gt;</translation>
+        <translation>Şu türde akış oynatılamıyor: &lt;unknown&gt;</translation>
     </message>
     <message>
         <source>UDP source timeout</source>
-        <translation>UDP kaynağı zaman aşımı</translation>
+        <translation>UDP kaynak zaman aşımı</translation>
     </message>
 </context>
 <context>
@@ -377,7 +377,7 @@
     </message>
     <message>
         <source>Not compatible codecs and container format.</source>
-        <translation>Uyumsuz kod çözücü ve kapsayıcı biçimi.</translation>
+        <translation>Uyumlu kodekler ve kapsayıcı biçimi.</translation>
     </message>
 </context>
 <context>
@@ -395,7 +395,7 @@
     <name>QMediaPlayer</name>
     <message>
         <source>Attempting to play invalid Qt resource</source>
-        <translation>Geçersiz Qt özkaynağı oynatılmaya çalışılıyor</translation>
+        <translation>Geçersiz Qt kaynağı oynatılmaya çalışılıyor</translation>
     </message>
     <message>
         <source>The QMediaPlayer object does not have a valid service</source>
@@ -406,7 +406,7 @@
     <name>QMediaPlaylist</name>
     <message>
         <source>Could not add items to read only playlist.</source>
-        <translation>Saltokunur oynatma listesine öge eklenemedi.</translation>
+        <translation>Salt okunur oynatma listesine öğe eklenemedi.</translation>
     </message>
     <message>
         <source>Playlist format is not supported</source>
@@ -468,7 +468,7 @@
     </message>
     <message>
         <source>%1 does not exist</source>
-        <translation>%1 yok</translation>
+        <translation>%1 mevcut değil</translation>
     </message>
     <message>
         <source>Empty file provided</source>
@@ -483,18 +483,18 @@
     </message>
     <message>
         <source>Invalid photo data length.</source>
-        <translation>Geçersiz fotoğraf verisi uzunluğu.</translation>
+        <translation>Geçersiz fotoğraf veri uzunluğu.</translation>
     </message>
     <message>
         <source>Image saving failed</source>
-        <translation>Görseli kaydetme başarısız</translation>
+        <translation>Resim kaydedilemedi</translation>
     </message>
 </context>
 <context>
     <name>QWinRTImageEncoderControl</name>
     <message>
         <source>JPEG image</source>
-        <translation>JPEG görseli</translation>
+        <translation>JPEG resmi</translation>
     </message>
 </context>
 </TS>

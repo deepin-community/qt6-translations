@@ -23,116 +23,116 @@
     <name>BbCameraAudioEncoderSettingsControl</name>
     <message>
         <source>No compression</source>
-        <translation type="vanished">Aucune compression</translation>
+        <translation>Aucune compression</translation>
     </message>
     <message>
         <source>AAC compression</source>
-        <translation type="vanished">Compression AAC</translation>
+        <translation>Compression AAC</translation>
     </message>
     <message>
         <source>PCM uncompressed</source>
-        <translation type="vanished">PCM sans compression</translation>
+        <translation>PCM sans compression</translation>
     </message>
 </context>
 <context>
     <name>BbCameraMediaRecorderControl</name>
     <message>
         <source>Unable to retrieve mute status</source>
-        <translation type="vanished">Impossible de récupérer le statut muet</translation>
+        <translation>Impossible de récupérer le statut muet</translation>
     </message>
     <message>
         <source>Unable to retrieve audio input volume</source>
-        <translation type="vanished">Impossible de récupérer le volume d&apos;entrée audio</translation>
+        <translation>Impossible de récupérer le volume d&apos;entrée audio</translation>
     </message>
     <message>
         <source>Unable to set mute status</source>
-        <translation type="vanished">Impossible de définir le statut muet</translation>
+        <translation>Impossible de définir le statut muet</translation>
     </message>
     <message>
         <source>Unable to set audio input volume</source>
-        <translation type="vanished">Impossible de définir le volume d&apos;entrée audio</translation>
+        <translation>Impossible de définir le volume d&apos;entrée audio</translation>
     </message>
 </context>
 <context>
     <name>BbCameraSession</name>
     <message>
         <source>Camera provides image in unsupported format</source>
-        <translation type="vanished">La caméra fournit l&apos;image dans un format non pris en charge</translation>
+        <translation>La caméra fournit l&apos;image dans un format non pris en charge</translation>
     </message>
     <message>
         <source>Could not load JPEG data from frame</source>
-        <translation type="vanished">Impossible de charger les données JPEG à partir d&apos;une frame</translation>
+        <translation>Impossible de charger les données JPEG à partir d&apos;une frame</translation>
     </message>
     <message>
         <source>Camera not ready</source>
-        <translation type="vanished">La caméra n&apos;est pas prête</translation>
+        <translation>La caméra n&apos;est pas prête</translation>
     </message>
     <message>
         <source>Unable to apply video settings</source>
-        <translation type="vanished">Impossible d&apos;appliquer les paramètres vidéo</translation>
+        <translation>Impossible d&apos;appliquer les paramètres vidéo</translation>
     </message>
     <message>
         <source>Could not open destination file:
 %1</source>
-        <translation type="vanished">Impossible d&apos;ouvrir le fichier de destination&#xa0;:
+        <translation>Impossible d&apos;ouvrir le fichier de destination :
 %1</translation>
     </message>
     <message>
         <source>Unable to open camera</source>
-        <translation type="vanished">Impossible d&apos;ouvrir la caméra</translation>
+        <translation>Impossible d&apos;ouvrir la caméra</translation>
     </message>
     <message>
         <source>Unable to retrieve native camera orientation</source>
-        <translation type="vanished">Impossible de récupérer l&apos;orientation native de la caméra</translation>
+        <translation>Impossible de récupérer l&apos;orientation native de la caméra</translation>
     </message>
     <message>
         <source>Unable to close camera</source>
-        <translation type="vanished">Impossible de fermer la caméra</translation>
+        <translation>Impossible de fermer la caméra</translation>
     </message>
     <message>
         <source>Unable to start video recording</source>
-        <translation type="vanished">Impossible de démarrer l&apos;enregistrement vidéo</translation>
+        <translation>Impossible de démarrer l&apos;enregistrement vidéo</translation>
     </message>
     <message>
         <source>Unable to stop video recording</source>
-        <translation type="vanished">Impossible d&apos;arrêter l&apos;enregistrement vidéo</translation>
+        <translation>Impossible d&apos;arrêter l&apos;enregistrement vidéo</translation>
     </message>
 </context>
 <context>
     <name>BbCameraVideoEncoderSettingsControl</name>
     <message>
         <source>No compression</source>
-        <translation type="vanished">Aucun compression</translation>
+        <translation>Aucun compression</translation>
     </message>
     <message>
         <source>AVC1 compression</source>
-        <translation type="vanished">Compression AVC1</translation>
+        <translation>Compression AVC1</translation>
     </message>
     <message>
         <source>H264 compression</source>
-        <translation type="vanished">Compression H264</translation>
+        <translation>Compression H264</translation>
     </message>
 </context>
 <context>
     <name>BbImageEncoderControl</name>
     <message>
         <source>JPEG image</source>
-        <translation type="vanished">Compression JPEG</translation>
+        <translation>Compression JPEG</translation>
     </message>
 </context>
 <context>
     <name>BbVideoDeviceSelectorControl</name>
     <message>
         <source>Front Camera</source>
-        <translation type="vanished">Caméra frontale</translation>
+        <translation>Caméra frontale</translation>
     </message>
     <message>
         <source>Rear Camera</source>
-        <translation type="vanished">Caméra arrière</translation>
+        <translation>Caméra arrière</translation>
     </message>
     <message>
         <source>Desktop Camera</source>
-        <translation type="vanished">Caméra du bureau</translation>
+        <translation>Caméra du bureau</translation>
     </message>
 </context>
 <context>
@@ -153,7 +153,7 @@
     <name>CameraBinRecorder</name>
     <message>
         <source>QMediaRecorder::pause() is not supported by camerabin2.</source>
-        <translation>QMediaRecorder&#xa0;: pause() n&apos;est pas supportée par camerabin2.</translation>
+        <translation>QMediaRecorder : pause() n&apos;est pas supportée par camerabin2.</translation>
     </message>
     <message>
         <source>Service has not been started</source>
@@ -174,52 +174,12 @@
 <context>
     <name>DSCameraSession</name>
     <message>
-        <source>Failed to configure preview format</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Failed to connect graph</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Failed to get stream control</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Failed to start</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Failed to stop</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Camera not ready for capture</source>
         <translation>La caméra n&apos;est pas prête pour l&apos;enregistrement</translation>
     </message>
     <message>
         <source>Could not save image to file.</source>
         <translation>Impossible d&apos;enregistrer l&apos;image dans le fichier.</translation>
-    </message>
-    <message>
-        <source>Failed to create filter graph</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Failed to create graph builder</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Failed to connect capture graph and filter graph</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>No capture device found</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Failed to create null renderer</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -332,7 +292,7 @@
     <name>QAndroidCameraSession</name>
     <message>
         <source>Camera cannot be started without a viewfinder.</source>
-        <translation type="vanished">La caméra ne peut pas être démarrée sans viseur.</translation>
+        <translation>La caméra ne peut pas être démarrée sans viseur.</translation>
     </message>
     <message>
         <source>Camera not ready</source>
@@ -344,16 +304,8 @@
         <translation>Mode d&apos;enregistrement non pris en charge</translation>
     </message>
     <message>
-        <source>Failed to capture image</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Camera preview failed to start.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Could not open destination file: %1</source>
-        <translation>Impossible d&apos;ouvrir le fichier de destination&#xa0;: %1</translation>
+        <translation>Impossible d&apos;ouvrir le fichier de destination : %1</translation>
     </message>
 </context>
 <context>
@@ -429,14 +381,14 @@
     <name>QGstreamerAudioDecoderSession</name>
     <message>
         <source>Cannot play stream of type: &lt;unknown&gt;</source>
-        <translation>Impossible de lire le flux de type&#xa0;: &lt;inconnu&gt;</translation>
+        <translation>Impossible de lire le flux de type : &lt;inconnu&gt;</translation>
     </message>
 </context>
 <context>
     <name>QGstreamerAudioEncode</name>
     <message>
         <source>Raw PCM audio</source>
-        <translation type="vanished">Audio Raw PCM</translation>
+        <translation>Audio Raw PCM</translation>
     </message>
 </context>
 <context>
@@ -489,7 +441,7 @@
     <name>QGstreamerPlayerSession</name>
     <message>
         <source>Cannot play stream of type: &lt;unknown&gt;</source>
-        <translation>Impossible de jouer le flux de type&#xa0;: &lt;inconnu&gt;</translation>
+        <translation>Impossible de jouer le flux de type : &lt;inconnu&gt;</translation>
     </message>
     <message>
         <source>UDP source timeout</source>
@@ -497,7 +449,7 @@
     </message>
     <message>
         <source>Media is loaded as a playlist</source>
-        <translation type="vanished">Le média est chargé comme une liste de lecture</translation>
+        <translation>Le média est chargé comme une liste de lecture</translation>
     </message>
 </context>
 <context>
@@ -587,21 +539,6 @@
     <name>QObject</name>
     <message>
         <source>%1 playlist type is unknown</source>
-        <translation type="vanished">Le type de playlist %1 est inconnu</translation>
-    </message>
-    <message>
-        <source>invalid line in playlist file</source>
-        <translation type="vanished">ligne invalide dans le fichier de playlist</translation>
-    </message>
-    <message>
-        <source>Empty file provided</source>
-        <translation type="vanished">Fichier vide fourni</translation>
-    </message>
-</context>
-<context>
-    <name>QPlaylistFileParser</name>
-    <message>
-        <source>%1 playlist type is unknown</source>
         <translation>Le type de playlist %1 est inconnu</translation>
     </message>
     <message>
@@ -609,16 +546,15 @@
         <translation>ligne invalide dans le fichier de playlist</translation>
     </message>
     <message>
-        <source>Invalid stream</source>
-        <translation type="unfinished"></translation>
+        <source>Empty file provided</source>
+        <translation>Fichier vide fourni</translation>
     </message>
+</context>
+<context>
+    <name>QPlaylistFileParser</name>
     <message>
         <source>%1 does not exist</source>
         <translation>%1 n&apos;existe pas</translation>
-    </message>
-    <message>
-        <source>Empty file provided</source>
-        <translation>Fichier vide fourni</translation>
     </message>
 </context>
 <context>
@@ -634,13 +570,6 @@
     <message>
         <source>Image saving failed</source>
         <translation>Échec de l&apos;enregistrement de l&apos;image</translation>
-    </message>
-</context>
-<context>
-    <name>QWinRTImageEncoderControl</name>
-    <message>
-        <source>JPEG image</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

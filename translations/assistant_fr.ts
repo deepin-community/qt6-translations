@@ -15,13 +15,9 @@
         <translation>Avertissement</translation>
     </message>
     <message>
-        <source>Unable to launch external application.</source>
-        <translation>Impossible d&apos;ouvrir l&apos;application externe.</translation>
-    </message>
-    <message>
         <source>Unable to launch external application.
 </source>
-        <translation type="vanished">Impossible d&apos;ouvrir l&apos;application externe.
+        <translation>Impossible d&apos;ouvrir l&apos;application externe.
 </translation>
     </message>
     <message>
@@ -33,11 +29,11 @@
     <name>Assistant</name>
     <message>
         <source>Error registering documentation file &apos;%1&apos;: %2</source>
-        <translation>Erreur lors de l&apos;enregistrement du fichier de documentation &apos;%1&apos;&#xa0;: %2</translation>
+        <translation>Erreur lors de l&apos;enregistrement du fichier de documentation &apos;%1&apos; : %2</translation>
     </message>
     <message>
         <source>Error: %1</source>
-        <translation type="vanished">Erreur&#xa0;: %1</translation>
+        <translation>Erreur : %1</translation>
     </message>
     <message>
         <source>Could not register documentation file
@@ -48,7 +44,7 @@ Reason:
         <translation>Impossible d&apos;enregistrer le fichier de documentation
 %1
 
-Raison&#xa0;:
+Raison :
 %2</translation>
     </message>
     <message>
@@ -64,7 +60,7 @@ Reason:
         <translation>Impossible de retirer le fichier de documentation
 %1
 
-Raison&#xa0;:
+Raison :
 %2</translation>
     </message>
     <message>
@@ -73,15 +69,15 @@ Raison&#xa0;:
     </message>
     <message>
         <source>Error reading collection file &apos;%1&apos;: %2.</source>
-        <translation>Erreur lors de la lecture du fichier de collection &apos;%1&apos;&#xa0;: %2.</translation>
+        <translation>Erreur lors de la lecture du fichier de collection &apos;%1&apos; : %2.</translation>
     </message>
     <message>
         <source>Error creating collection file &apos;%1&apos;: %2.</source>
-        <translation>Erreur lors de la création du fichier de collection &apos;%1&apos;&#xa0;: %2.</translation>
+        <translation>Erreur lors de la création du fichier de collection &apos;%1&apos; : %2.</translation>
     </message>
     <message>
         <source>Cannot load sqlite database driver!</source>
-        <translation>Impossible de charger le pilote de la base de données sqlite&#xa0;!</translation>
+        <translation>Impossible de charger le driver de la base de données sqlite !</translation>
     </message>
 </context>
 <context>
@@ -92,11 +88,11 @@ Raison&#xa0;:
     </message>
     <message>
         <source>Bookmark:</source>
-        <translation>Signet&#xa0;:</translation>
+        <translation>Signet :</translation>
     </message>
     <message>
         <source>Add in Folder:</source>
-        <translation>Ajouter dans le dossier&#xa0;:</translation>
+        <translation>Ajouter dans le dossier :</translation>
     </message>
     <message>
         <source>+</source>
@@ -134,15 +130,15 @@ Raison&#xa0;:
     </message>
     <message>
         <source>You are going to delete a Folder, this will also&lt;br&gt;remove it&apos;s content. Are you sure to continue?</source>
-        <translation>Vous allez supprimer un dossier, ceci va aussi&lt;br&gt;supprimer son contenu. Voulez-vous continuer&#xa0;?</translation>
+        <translation>Vous allez supprimer un dossier, ceci va aussi&lt;br&gt;supprimer son contenu. Voulez-vous continuer ?</translation>
     </message>
     <message>
         <source>Manage Bookmarks...</source>
-        <translation>Gestion des signets…</translation>
+        <translation>Gestion des signets...</translation>
     </message>
     <message>
         <source>Add Bookmark...</source>
-        <translation>Ajouter un signet…</translation>
+        <translation>Ajouter un signet...</translation>
     </message>
     <message>
         <source>Ctrl+D</source>
@@ -181,7 +177,7 @@ Raison&#xa0;:
     </message>
     <message>
         <source>Search:</source>
-        <translation>Recherche&#xa0;:</translation>
+        <translation>Recherche :</translation>
     </message>
     <message>
         <source>Remove</source>
@@ -197,11 +193,11 @@ Raison&#xa0;:
     </message>
     <message>
         <source>Import...</source>
-        <translation>Importer…</translation>
+        <translation>Importer...</translation>
     </message>
     <message>
         <source>Export...</source>
-        <translation>Exporter…</translation>
+        <translation>Exporter...</translation>
     </message>
     <message>
         <source>Open File</source>
@@ -225,7 +221,7 @@ Raison&#xa0;:
     </message>
     <message>
         <source>You are goingto delete a Folder, this will also&lt;br&gt; remove it&apos;s content. Are you sure to continue?</source>
-        <translation>Vous êtes sur le point de supprimer un dossier, ceci supprimera&lt;br&gt; également son contenu. Voulez-vous continuer&#xa0;?</translation>
+        <translation>Vous êtes sur le point de supprimer un dossier, ceci supprimera&lt;br&gt; également son contenu. Voulez-vous continuer ?</translation>
     </message>
     <message>
         <source>Delete Folder</source>
@@ -279,7 +275,7 @@ Raison&#xa0;:
     </message>
     <message>
         <source>Filter:</source>
-        <translation>Filtré par&#xa0;:</translation>
+        <translation>Filtre :</translation>
     </message>
     <message>
         <source>Add</source>
@@ -330,7 +326,7 @@ Raison&#xa0;:
                            status message.
 -help                      Displays this help.
 </source>
-        <translation type="vanished">Utilisation&#xa0;: assistant [Options]
+        <translation>Utilisation : assistant [Options]
 
 -collectionFile fichier     Utilise le fichier de collection spécifié
                             au lieu de celui par défaut.
@@ -355,76 +351,12 @@ Raison&#xa0;:
 -remove-search-index        Supprime l&apos;index de recherche du texte intégral.
 -rebuild-search-index       Re-construit l&apos;index de recherche du texte
                             intégral (potentiellement lent).
--quiet                      N&apos;affiche aucune erreur ou message d&apos;état.
--help                       Affiche cette page d&apos;aide.</translation>
-    </message>
-    <message>
-        <source>Usage: assistant [Options]
-
--collectionFile file       Uses the specified collection
-                           file instead of the default one
--showUrl url               Shows the document with the
-                           url.
--enableRemoteControl       Enables Assistant to be
-                           remotely controlled.
--show widget               Shows the specified dockwidget
-                           which can be &quot;contents&quot;, &quot;index&quot;,
-                           &quot;bookmarks&quot; or &quot;search&quot;.
--activate widget           Activates the specified dockwidget
-                           which can be &quot;contents&quot;, &quot;index&quot;,
-                           &quot;bookmarks&quot; or &quot;search&quot;.
--hide widget               Hides the specified dockwidget
-                           which can be &quot;contents&quot;, &quot;index&quot;
-                           &quot;bookmarks&quot; or &quot;search&quot;.
--register helpFile         Registers the specified help file
-                           (.qch) in the given collection
-                           file.
--unregister helpFile       Unregisters the specified help file
-                           (.qch) from the give collection
-                           file.
--setCurrentFilter filter   Set the filter as the active filter.
--remove-search-index       Removes the full text search index.
--rebuild-search-index      Obsolete. Use -remove-search-index instead.
-                           Removes the full text search index.
-                           It will be rebuilt on next Assistant run.
--quiet                     Does not display any error or
-                           status message.
--help                      Displays this help.
-</source>
-        <translation>Utilisation&#xa0;: assistant [Options]
-
--collectionFile fichier     Utilise le fichier de collection spécifié
-                            au lieu de celui par défaut.
--showUrl url                Affiche le document avec l&apos;url.
--enableRemoteControl        Permet à l&apos;Assistant d&apos;être contrôlé
-                            à distance.
--show widget                Affiche le dockwidget spécifié, qui
-                            peut être &quot;contents&quot;, &quot;index&quot;,
-                            &quot;bookmarks&quot; ou &quot;search&quot;.
--activate widget            Active le dockwidget spécifié, qui
-                            peut être &quot;contents&quot;, &quot;index&quot;,
-                            &quot;bookmarks&quot; ou &quot;search&quot;.
--hide widget                Masque le dockwidget spécifié, qui
-                            peut être &quot;contents&quot;, &quot;index&quot;,
-                            &quot;bookmarks&quot; ou &quot;search&quot;.
--register helpFile          Enregistre le fichier d&apos;aide spécifié
-                            (.qch) dans le fichier de collection donné.
--unregister helpFile        Annule l&apos;enregistrement du fichier d&apos;aide
-                            spécifié (.qch) du fichier de collection
-                            donné.
--setCurrentFilter filter    Active le filtre comme filtre actif.
--remove-search-index        Supprime l&apos;index de recherche du texte intégral.
--rebuild-search-index       Re-construit l&apos;index de recherche du texte
-                            intégral (potentiellement lent).
--rebuild-search-index       Déprécié. Veuillez utiliser -remove-search-index à la place.
-                            Supprime l&apos;index de recherche du texte intégral.
-                            Il sera reconstruit à la prochaine exécution de l&apos;Assistant.
 -quiet                      N&apos;affiche aucune erreur ou message d&apos;état.
 -help                       Affiche cette page d&apos;aide.</translation>
     </message>
     <message>
         <source>Unknown option: %1</source>
-        <translation>Option inconnue&#xa0;: %1</translation>
+        <translation>Option inconnue : %1</translation>
     </message>
     <message>
         <source>The collection file &apos;%1&apos; does not exist.</source>
@@ -444,7 +376,7 @@ Raison&#xa0;:
     </message>
     <message>
         <source>Unknown widget: %1</source>
-        <translation>Widget inconnu&#xa0;: %1</translation>
+        <translation>Widget inconnu : %1</translation>
     </message>
     <message>
         <source>Missing widget.</source>
@@ -486,11 +418,11 @@ Raison&#xa0;:
     <name>FilterNameDialogClass</name>
     <message>
         <source>Add Filter Name</source>
-        <translation type="vanished">Ajouter un filtre</translation>
+        <translation>Ajouter un filtre</translation>
     </message>
     <message>
         <source>Filter Name:</source>
-        <translation type="vanished">Nom du filtre&#xa0;:</translation>
+        <translation>Nom du filtre :</translation>
     </message>
 </context>
 <context>
@@ -567,11 +499,11 @@ Raison&#xa0;:
     </message>
     <message>
         <source>&amp;Print...</source>
-        <translation>&amp;Imprimer…</translation>
+        <translation>&amp;Imprimer...</translation>
     </message>
     <message>
         <source>&amp;Find in Text...</source>
-        <translation>&amp;Rechercher dans le texte…</translation>
+        <translation>&amp;Rechercher dans le texte...</translation>
     </message>
     <message>
         <source>&amp;Find</source>
@@ -579,59 +511,21 @@ Raison&#xa0;:
     </message>
 </context>
 <context>
-    <name>HelpDocSettingsWidget</name>
-    <message>
-        <source>Form</source>
-        <translation>Formulaire</translation>
-    </message>
-    <message>
-        <source>Registered Documentation</source>
-        <translation>Documentation référencée</translation>
-    </message>
-    <message>
-        <source>&lt;Filter&gt;</source>
-        <translation>&lt;Filtre&gt;</translation>
-    </message>
-    <message>
-        <source>Add...</source>
-        <translation>Ajouter…</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation>Retirer</translation>
-    </message>
-</context>
-<context>
-    <name>HelpDocSettingsWidgetPrivate</name>
-    <message>
-        <source>Add Documentation</source>
-        <translation>Ajouter une documentation</translation>
-    </message>
-    <message>
-        <source>Qt Compressed Help Files (*.qch)</source>
-        <translation>Fichiers d&apos;aide Qt compressés (*.qch)</translation>
-    </message>
-</context>
-<context>
     <name>HelpEngineWrapper</name>
     <message>
         <source>Unfiltered</source>
-        <translation type="vanished">Non-filtré</translation>
+        <translation>Non-filtré</translation>
     </message>
 </context>
 <context>
     <name>HelpViewer</name>
     <message>
         <source>Error 404...</source>
-        <translation>Erreur 404…</translation>
+        <translation>Erreur 404...</translation>
     </message>
     <message>
         <source>The page could not be found!</source>
-        <translation type="vanished">La page n&apos;a pas pu être trouvée&#xa0;!</translation>
-    </message>
-    <message>
-        <source>The page could not be found</source>
-        <translation>Impossible de trouver la page</translation>
+        <translation>La page n&apos;a pas pu être trouvée !</translation>
     </message>
     <message>
         <source>Please make sure that you have all documentation sets installed.</source>
@@ -647,7 +541,7 @@ Raison&#xa0;:
     </message>
     <message>
         <source>&lt;title&gt;Error 404...&lt;/title&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;h1&gt;The page could not be found.&lt;/h1&gt;&lt;br&gt;&lt;h3&gt;&apos;%1&apos;&lt;/h3&gt;&lt;/div&gt;</source>
-        <translation>&lt;title&gt;Erreur 404…&lt;/title&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;h1&gt;La page n&apos;a pas pu être trouvée.&lt;/h1&gt;&lt;br&gt;&lt;h3&gt;&quot;%1&quot;&lt;/h3&gt;&lt;/div&gt;</translation>
+        <translation>&lt;title&gt;Erreur 404...&lt;/title&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;h1&gt;La page n&apos;a pas pu être trouvée.&lt;/h1&gt;&lt;br&gt;&lt;h3&gt;&quot;%1&quot;&lt;/h3&gt;&lt;/div&gt;</translation>
     </message>
     <message>
         <source>Open Link</source>
@@ -678,7 +572,7 @@ Raison&#xa0;:
     <name>IndexWindow</name>
     <message>
         <source>&amp;Look for:</source>
-        <translation>&amp;Rechercher&#xa0;:</translation>
+        <translation>&amp;Rechercher :</translation>
     </message>
     <message>
         <source>Open Link</source>
@@ -721,7 +615,7 @@ Raison&#xa0;:
     </message>
     <message>
         <source>Looking for Qt Documentation...</source>
-        <translation>Recherche la documentation de Qt…</translation>
+        <translation>Recherche la documentation de Qt...</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -737,11 +631,11 @@ Raison&#xa0;:
     </message>
     <message>
         <source>Page Set&amp;up...</source>
-        <translation>&amp;Mise en page…</translation>
+        <translation>&amp;Mise en page...</translation>
     </message>
     <message>
         <source>Print Preview...</source>
-        <translation>Aperçu avant impression…</translation>
+        <translation>Aperçu avant impression...</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -769,7 +663,7 @@ Raison&#xa0;:
     </message>
     <message>
         <source>Preferences...</source>
-        <translation>Préférences…</translation>
+        <translation>Préférences...</translation>
     </message>
     <message>
         <source>&amp;View</source>
@@ -841,7 +735,7 @@ Raison&#xa0;:
     </message>
     <message>
         <source>About...</source>
-        <translation>À propos…</translation>
+        <translation>À propos...</translation>
     </message>
     <message>
         <source>Navigation Toolbar</source>
@@ -873,7 +767,7 @@ Raison&#xa0;:
     </message>
     <message>
         <source>Filtered by:</source>
-        <translation>Filtre&#xa0;:</translation>
+        <translation>Filtre :</translation>
     </message>
     <message>
         <source>Address Toolbar</source>
@@ -881,7 +775,7 @@ Raison&#xa0;:
     </message>
     <message>
         <source>Address:</source>
-        <translation>Adresse&#xa0;:</translation>
+        <translation>Adresse :</translation>
     </message>
     <message>
         <source>Could not find the associated content item.</source>
@@ -896,16 +790,12 @@ Raison&#xa0;:
         <translation>À propos de %1</translation>
     </message>
     <message>
-        <source>Unfiltered</source>
-        <translation>Non-filtré</translation>
-    </message>
-    <message>
         <source>Updating search index</source>
         <translation>Mise à jour de l&apos;index de recherche</translation>
     </message>
     <message>
         <source>Could not register file &apos;%1&apos;: %2</source>
-        <translation>Impossible d&apos;enregistrer le fichier &apos;%1&apos;&#xa0;: %2</translation>
+        <translation>Impossible d&apos;enregistrer le fichier &apos;%1&apos; : %2</translation>
     </message>
 </context>
 <context>
@@ -923,35 +813,35 @@ Raison&#xa0;:
     <name>PreferencesDialog</name>
     <message>
         <source>Add Documentation</source>
-        <translation type="vanished">Ajouter une documentation</translation>
+        <translation>Ajouter une documentation</translation>
     </message>
     <message>
         <source>Qt Compressed Help Files (*.qch)</source>
-        <translation type="vanished">Fichiers d&apos;aide Qt compressés (*.qch)</translation>
+        <translation>Fichiers d&apos;aide Qt compressés (*.qch)</translation>
     </message>
     <message>
         <source>The namespace %1 is already registered!</source>
-        <translation type="vanished">L&apos;espace de nom %1 existe déjà&#xa0;!</translation>
+        <translation>L&apos;espace de nom %1 existe déjà !</translation>
     </message>
     <message>
         <source>The specified file is not a valid Qt Help File!</source>
-        <translation type="vanished">Le fichier spécifié n&apos;est pas un fichier d&apos;aide Qt valide&#xa0;!</translation>
+        <translation>Le fichier spécifié n&apos;est pas un fichier d&apos;aide Qt valide !</translation>
     </message>
     <message>
         <source>Remove Documentation</source>
-        <translation type="vanished">Supprimer la documentation</translation>
+        <translation>Supprimer la documentation</translation>
     </message>
     <message>
         <source>Some documents currently opened in Assistant reference the documentation you are attempting to remove. Removing the documentation will close those documents.</source>
-        <translation type="vanished">Certains documents ouverts dans Assistant ont des références vers la documentation que vous allez supprimer. Supprimer la documentation fermera ces documents.</translation>
+        <translation>Certains documents ouverts dans Assistant ont des références vers la documentation que vous allez supprimer. Supprimer la documentation fermera ces documents.</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="vanished">Annuler</translation>
+        <translation>Annuler</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="vanished">OK</translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Use custom settings</source>
@@ -970,7 +860,7 @@ Raison&#xa0;:
     </message>
     <message>
         <source>Font settings:</source>
-        <translation>Configuration des polices&#xa0;:</translation>
+        <translation>Configuration des polices :</translation>
     </message>
     <message>
         <source>Browser</source>
@@ -986,23 +876,23 @@ Raison&#xa0;:
     </message>
     <message>
         <source>Filter:</source>
-        <translation type="vanished">Filtre&#xa0;:</translation>
+        <translation>Filtre :</translation>
     </message>
     <message>
         <source>Attributes:</source>
-        <translation type="vanished">Attributs&#xa0;:</translation>
+        <translation>Attributs :</translation>
     </message>
     <message>
         <source>1</source>
-        <translation type="vanished">1</translation>
+        <translation>1</translation>
     </message>
     <message>
         <source>Add</source>
-        <translation type="vanished">Ajouter</translation>
+        <translation>Ajouter</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation type="vanished">Supprimer</translation>
+        <translation>Supprimer</translation>
     </message>
     <message>
         <source>Documentation</source>
@@ -1010,11 +900,11 @@ Raison&#xa0;:
     </message>
     <message>
         <source>Registered Documentation:</source>
-        <translation type="vanished">Documentation référencée&#xa0;:</translation>
+        <translation>Documentation référencée :</translation>
     </message>
     <message>
         <source>Add...</source>
-        <translation type="vanished">Ajouter…</translation>
+        <translation>Ajouter...</translation>
     </message>
     <message>
         <source>Options</source>
@@ -1022,7 +912,7 @@ Raison&#xa0;:
     </message>
     <message>
         <source>On help start:</source>
-        <translation>Au démarrage&#xa0;:</translation>
+        <translation>Au démarrage :</translation>
     </message>
     <message>
         <source>Show my home page</source>
@@ -1069,7 +959,7 @@ Raison&#xa0;:
     </message>
     <message>
         <source>Received Command: %1 %2</source>
-        <translation>Commande reçue&#xa0;: %1 %2</translation>
+        <translation>Commande reçue : %1 %2</translation>
     </message>
 </context>
 <context>
@@ -1111,7 +1001,7 @@ Raison&#xa0;:
     </message>
     <message>
         <source>Add Bookmark for this Page...</source>
-        <translation>Ajouter un signet pour cette page…</translation>
+        <translation>Ajouter un signet pour cette page...</translation>
     </message>
 </context>
 <context>
@@ -1138,7 +1028,7 @@ Raison&#xa0;:
     </message>
     <message>
         <source>Choose a topic for &lt;b&gt;%1&lt;/b&gt;:</source>
-        <translation>Choisir le domaine pour &lt;b&gt;%1&lt;/b&gt;&#xa0;:</translation>
+        <translation>Choisir le domaine pour &lt;b&gt;%1&lt;/b&gt; :</translation>
     </message>
 </context>
 </TS>

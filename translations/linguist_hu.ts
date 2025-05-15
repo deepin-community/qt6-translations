@@ -118,11 +118,6 @@ Egyes számú általános formát fog feltételezni.</translation>
         <translation>A(z) „%2” létrehozása sikertelen: %1</translation>
     </message>
     <message>
-        <source>%1 (%2)</source>
-        <extracomment>&lt;language&gt; (&lt;territory&gt;)</extracomment>
-        <translation>%1 (%2)</translation>
-    </message>
-    <message>
         <source>Universal Form</source>
         <translation>Általános alak</translation>
     </message>
@@ -136,10 +131,6 @@ Egyes számú általános formát fog feltételezni.</translation>
     <message>
         <source>Accelerator possibly missing in translation.</source>
         <translation>Egy gyorsbillentyű valószínűleg hiányzik a fordításból.</translation>
-    </message>
-    <message>
-        <source>Translation does not have same leading and trailing whitespace as the source text.</source>
-        <translation>A fordítás nem tartalmazza ugyanazt a kezdő és záró üres karaktert mint a forrásszöveg.</translation>
     </message>
     <message>
         <source>Translation does not end with the same punctuation as the source text.</source>
@@ -206,7 +197,7 @@ Egyes számú általános formát fog feltételezni.</translation>
     </message>
     <message>
         <source>&amp;Match case</source>
-        <translation>K&amp;is- és nagybetűk megkülönböztetése</translation>
+        <translation>&amp;Kis- és nagybetűk megkülönböztetése</translation>
     </message>
     <message>
         <source>Comments and contexts are searched when checked.</source>
@@ -247,35 +238,7 @@ Egyes számú általános formát fog feltételezni.</translation>
     <message>
         <source></source>
         <comment>Choose Edit|Find from the menu bar or press Ctrl+F to pop up the Find dialog</comment>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Lets you use a Perl-compatible regular expression</source>
-        <translation>Lehetővé teszi Perl-kompatibilis reguláris kifejezések használatát</translation>
-    </message>
-    <message>
-        <source>Regular &amp;expression</source>
-        <translation>Reguláris kifeje&amp;zések</translation>
-    </message>
-    <message>
-        <source>T&amp;ranslation status:</source>
-        <translation>Fo&amp;rdítás állapota:</translation>
-    </message>
-    <message>
-        <source>Lets you filter the search target by translation status</source>
-        <translation>Lehetővé teszi a fordítás állapota szerinti szűrést</translation>
-    </message>
-    <message>
-        <source>All</source>
-        <translation>Összes</translation>
-    </message>
-    <message>
-        <source>Finished</source>
-        <translation>Befejezett</translation>
-    </message>
-    <message>
-        <source>Unfinished</source>
-        <translation>Befejezetlen</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -308,25 +271,25 @@ Egyes számú általános formát fog feltételezni.</translation>
     <name>LRelease</name>
     <message numerus="yes">
         <source>Dropped %n message(s) which had no ID.</source>
-        <translation type="vanished">
+        <translation>
             <numerusform>%n üzenet eldobva, amelynek nem volt azonosítója.</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>Excess context/disambiguation dropped from %n message(s).</source>
-        <translation type="vanished">
+        <translation>
             <numerusform>Többlet környezet vagy egyértelműség eldobva %n üzenetből.</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>    Generated %n translation(s) (%1 finished and %2 unfinished)</source>
-        <translation type="vanished">
+        <translation>
             <numerusform>%n fordítás előállítva (%1 befejezett és %2 befejezetlen)</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>    Ignored %n untranslated source text(s)</source>
-        <translation type="vanished">
+        <translation>
             <numerusform>%n lefordítatlan forrásszöveg figyelmen kívül hagyva</numerusform>
         </translation>
     </message>
@@ -335,27 +298,27 @@ Egyes számú általános formát fog feltételezni.</translation>
     <name>Linguist</name>
     <message>
         <source>GNU Gettext localization files</source>
-        <translation type="vanished">GNU Gettext honosítási fájlok</translation>
+        <translation>GNU Gettext honosítási fájlok</translation>
     </message>
     <message>
         <source>GNU Gettext localization template files</source>
-        <translation type="vanished">GNU Gettext honosítási sablonfájlok</translation>
+        <translation>GNU Gettext honosítási sablonfájlok</translation>
     </message>
     <message>
         <source>Compiled Qt translations</source>
-        <translation type="vanished">Lefordított Qt fordítások</translation>
+        <translation>Lefordított Qt fordítások</translation>
     </message>
     <message>
         <source>Qt Linguist &apos;Phrase Book&apos;</source>
-        <translation type="vanished">Qt Linguist „kifejezéstár”</translation>
+        <translation>Qt Linguist „kifejezéstár”</translation>
     </message>
     <message>
         <source>Qt translation sources</source>
-        <translation type="vanished">Qt fordítási források</translation>
+        <translation>Qt fordítási források</translation>
     </message>
     <message>
         <source>XLIFF localization files</source>
-        <translation type="vanished">XLIFF honosítási fájlok</translation>
+        <translation>XLIFF honosítási fájlok</translation>
     </message>
 </context>
 <context>
@@ -426,7 +389,7 @@ Egyes számú általános formát fog feltételezni.</translation>
     </message>
     <message>
         <source>Open a Qt translation source file (TS file) for editing</source>
-        <translation>Egy Qt fordítási forrásfájl (TS-fájl) megnyitása szerkesztésre</translation>
+        <translation>Egy Qt fordítási forrásforrás (TS-fájl) megnyitása szerkesztésre</translation>
     </message>
     <message>
         <source>Ctrl+O</source>
@@ -678,11 +641,11 @@ Egyes számú általános formát fog feltételezni.</translation>
     </message>
     <message>
         <source>Toggle the validity check of accelerators</source>
-        <translation type="vanished">A gyorsbillentyűk érvényességi ellenőrzésének be- és kikapcsolása</translation>
+        <translation>A gyorsbillentyűk érvényességi ellenőrzésének be- és kikapcsolása</translation>
     </message>
     <message>
         <source>Toggle the validity check of accelerators, i.e. whether the number of ampersands in the source and translation text is the same. If the check fails, a message is shown in the warnings window.</source>
-        <translation type="vanished">A gyorsbillentyűk érvényességi ellenőrzésének be- és kikapcsolása, azaz ugyanannyi „és”-jel van-e a forrás és a fordítási szövegben. Ha az ellenőrzés sikertelen, akkor egy üzenet jelenik meg a figyelmeztetések ablakában.</translation>
+        <translation>A gyorsbillentyűk érvényességi ellenőrzésének be- és kikapcsolása, azaz ugyanannyi „és”-jel van-e a forrás és a fordítási szövegben. Ha az ellenőrzés sikertelen, akkor egy üzenet jelenik meg a figyelmeztetések ablakában.</translation>
     </message>
     <message>
         <source>&amp;Ending Punctuation</source>
@@ -690,11 +653,11 @@ Egyes számú általános formát fog feltételezni.</translation>
     </message>
     <message>
         <source>Toggle the validity check of ending punctuation</source>
-        <translation type="vanished">A mondatvégi írásjelek érvényességi ellenőrzésének be- és kikapcsolása</translation>
+        <translation>A mondatvégi írásjelek érvényességi ellenőrzésének be- és kikapcsolása</translation>
     </message>
     <message>
         <source>Toggle the validity check of ending punctuation. If the check fails, a message is shown in the warnings window.</source>
-        <translation type="vanished">A mondatvégi írásjelek érvényességi ellenőrzésének be- és kikapcsolása. Ha az ellenőrzés sikertelen, akkor egy üzenet jelenik meg a figyelmeztetések ablakában.</translation>
+        <translation>A mondatvégi írásjelek érvényességi ellenőrzésének be- és kikapcsolása. Ha az ellenőrzés sikertelen, akkor egy üzenet jelenik meg a figyelmeztetések ablakában.</translation>
     </message>
     <message>
         <source>&amp;Phrase matches</source>
@@ -702,11 +665,11 @@ Egyes számú általános formát fog feltételezni.</translation>
     </message>
     <message>
         <source>Toggle checking that phrase suggestions are used</source>
-        <translation type="vanished">Azon ellenőrzés be- és kikapcsolása, hogy a kifejezésjavaslatokat használják-e</translation>
+        <translation>Azon ellenőrzés be- és kikapcsolása, hogy a kifejezésjavaslatokat használják-e</translation>
     </message>
     <message>
         <source>Toggle checking that phrase suggestions are used. If the check fails, a message is shown in the warnings window.</source>
-        <translation type="vanished">Azon ellenőrzés be- és kikapcsolása, hogy a kifejezésjavaslatokat használják-e. Ha az ellenőrzés sikertelen, akkor egy üzenet jelenik meg a figyelmeztetések ablakában.</translation>
+        <translation>Azon ellenőrzés be- és kikapcsolása, hogy a kifejezésjavaslatokat használják-e. Ha az ellenőrzés sikertelen, akkor egy üzenet jelenik meg a figyelmeztetések ablakában.</translation>
     </message>
     <message>
         <source>Place &amp;Marker Matches</source>
@@ -714,11 +677,11 @@ Egyes számú általános formát fog feltételezni.</translation>
     </message>
     <message>
         <source>Toggle the validity check of place markers</source>
-        <translation type="vanished">A helyfoglalók érvényességi ellenőrzésének be- és kikapcsolása</translation>
+        <translation>A helyfoglalók érvényességi ellenőrzésének be- és kikapcsolása</translation>
     </message>
     <message>
         <source>Toggle the validity check of place markers, i.e. whether %1, %2, ... are used consistently in the source text and translation text. If the check fails, a message is shown in the warnings window.</source>
-        <translation type="vanished">A helyfoglalók érvényességi ellenőrzésének be- és kikapcsolása, azaz a %1, %2, … következetesen vannak-e használva a forrásszövegben és a fordítási szövegben. Ha az ellenőrzés sikertelen, akkor egy üzenet jelenik meg a figyelmeztetések ablakában.</translation>
+        <translation>A helyfoglalók érvényességi ellenőrzésének be- és kikapcsolása, azaz a %1, %2, … következetesen vannak-e használva a forrásszövegben és a fordítási szövegben. Ha az ellenőrzés sikertelen, akkor egy üzenet jelenik meg a figyelmeztetések ablakában.</translation>
     </message>
     <message>
         <source>&amp;New Phrase Book...</source>
@@ -910,7 +873,7 @@ Egyes számú általános formát fog feltételezni.</translation>
     </message>
     <message>
         <source>Toggle visualize whitespace in editors</source>
-        <translation type="vanished">Üres karakterek megjelenítésének be- és kikapcsolása a szerkesztőkben</translation>
+        <translation>Üres karakterek megjelenítésének be- és kikapcsolása a szerkesztőkben</translation>
     </message>
     <message>
         <source>Increase</source>
@@ -939,7 +902,7 @@ Egyes számú általános formát fog feltételezni.</translation>
     <message>
         <source></source>
         <comment>This is the application&apos;s main window.</comment>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Source text</source>
@@ -980,7 +943,7 @@ Egyes számú általános formát fog feltételezni.</translation>
     <message>
         <source> MOD </source>
         <comment>status bar: file(s) modified</comment>
-        <translation> MÓD </translation>
+        <translation> MOD </translation>
     </message>
     <message>
         <source>Loading...</source>
@@ -1149,16 +1112,8 @@ Minden fájl (*)</translation>
         <translation>%1. verzió</translation>
     </message>
     <message>
-        <source>Qt Linguist is a tool for adding translations to Qt applications.</source>
-        <translation>A Qt Linguist egy eszköz a fordítások Qt alkalmazásokhoz történő hozzáadásához.</translation>
-    </message>
-    <message>
-        <source>Copyright (C) %1 The Qt Company Ltd.</source>
-        <translation type="vanished">Copyright (C) %1 A Qt Company Ltd.</translation>
-    </message>
-    <message>
         <source>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Qt Linguist is a tool for adding translations to Qt applications.&lt;/p&gt;&lt;p&gt;Copyright (C) %2 The Qt Company Ltd.</source>
-        <translation type="vanished">&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;A Qt Linguist egy eszköz a fordítások Qt alkalmazásokhoz történő hozzáadásához.&lt;/p&gt;&lt;p&gt;Copyright (C) %2 The Qt Company Ltd.</translation>
+        <translation>&lt;center&gt;&lt;img src=&quot;:/images/splash.png&quot;/&gt;&lt;/img&gt;&lt;p&gt;%1&lt;/p&gt;&lt;/center&gt;&lt;p&gt;A Qt Linguist egy eszköz a fordítások Qt alkalmazásokhoz történő hozzáadásához.&lt;/p&gt;&lt;p&gt;Copyright (C) %2 The Qt Company Ltd.</translation>
     </message>
     <message>
         <source>Do you want to save the modified files?</source>
@@ -1280,107 +1235,9 @@ Minden fájl (*)</translation>
         <source>Do you want to save phrase book &apos;%1&apos;?</source>
         <translation>Szeretné menteni a(z) „%1” kifejezéstárat?</translation>
     </message>
-    <message numerus="yes">
-        <source>%n unfinished message(s) left.</source>
-        <translation>
-            <numerusform>%n befejezetlen üzenet van hátra.</numerusform>
-        </translation>
-    </message>
     <message>
         <source>All</source>
         <translation>Összes</translation>
-    </message>
-    <message>
-        <source>Guesses</source>
-        <translation>Tippek</translation>
-    </message>
-    <message>
-        <source>Toggles the validity check of accelerators</source>
-        <translation>A gyorsbillentyűk érvényességi ellenőrzésének be- és kikapcsolása</translation>
-    </message>
-    <message>
-        <source>Toggles the validity check of accelerators, i.e. whether the number of ampersands in the source and translation text is the same. If the check fails, a message is shown in the warnings window.</source>
-        <translation>A gyorsbillentyűk érvényességi ellenőrzésének be- és kikapcsolása, azaz ugyanannyi „és”-jel van-e a forrás és a fordítási szövegben. Ha az ellenőrzés sikertelen, akkor egy üzenet jelenik meg a figyelmeztetések ablakában.</translation>
-    </message>
-    <message>
-        <source>Surrounding &amp;Whitespace</source>
-        <translation>Határoló ü&amp;res karakterek</translation>
-    </message>
-    <message>
-        <source>Toggles the validity check of surrounding whitespace.</source>
-        <translation>A határoló üres karakterek érvényességi ellenőrzésének be- és kikapcsolása.</translation>
-    </message>
-    <message>
-        <source>Toggles the validity check of surrounding whitespace. If the check fails, a message is shown in the warnings window.</source>
-        <translation>A határoló üres karakterek érvényességi ellenőrzésének be- és kikapcsolása. Ha az ellenőrzés sikertelen, akkor egy üzenet jelenik meg a figyelmeztetések ablakában.</translation>
-    </message>
-    <message>
-        <source>Toggles the validity check of ending punctuation</source>
-        <translation>A mondatvégi írásjelek érvényességi ellenőrzésének be- és kikapcsolása</translation>
-    </message>
-    <message>
-        <source>Toggles the validity check of ending punctuation. If the check fails, a message is shown in the warnings window.</source>
-        <translation>A mondatvégi írásjelek érvényességi ellenőrzésének be- és kikapcsolása. Ha az ellenőrzés sikertelen, akkor egy üzenet jelenik meg a figyelmeztetések ablakában.</translation>
-    </message>
-    <message>
-        <source>Toggles checking that phrase suggestions are used</source>
-        <translation>Azon ellenőrzés be- és kikapcsolása, hogy a kifejezésjavaslatokat használják-e</translation>
-    </message>
-    <message>
-        <source>Toggles checking that phrase suggestions are used. If the check fails, a message is shown in the warnings window.</source>
-        <translation>Azon ellenőrzés be- és kikapcsolása, hogy a kifejezésjavaslatokat használják-e. Ha az ellenőrzés sikertelen, akkor egy üzenet jelenik meg a figyelmeztetések ablakában.</translation>
-    </message>
-    <message>
-        <source>Toggles the validity check of place markers</source>
-        <translation>A helyfoglalók érvényességi ellenőrzésének be- és kikapcsolása</translation>
-    </message>
-    <message>
-        <source>Toggles the validity check of place markers, i.e. whether %1, %2, ... are used consistently in the source text and translation text. If the check fails, a message is shown in the warnings window.</source>
-        <translation>A helyfoglalók érvényességi ellenőrzésének be- és kikapcsolása, azaz a %1, %2, … következetesen vannak-e használva a forrásszövegben és a fordítási szövegben. Ha az ellenőrzés sikertelen, akkor egy üzenet jelenik meg a figyelmeztetések ablakában.</translation>
-    </message>
-    <message>
-        <source>Toggles visualize whitespace in editors</source>
-        <translation>Üres karakterek megjelenítésének be- és kikapcsolása a szerkesztőkben</translation>
-    </message>
-    <message>
-        <source>Show more</source>
-        <translation>Több megjelenítése</translation>
-    </message>
-    <message>
-        <source>Alt++</source>
-        <translation>Alt++</translation>
-    </message>
-    <message>
-        <source>Show fewer</source>
-        <translation>Kevesebb megjelenítése</translation>
-    </message>
-    <message>
-        <source>Alt+-</source>
-        <translation>Alt+-</translation>
-    </message>
-    <message>
-        <source>Alt+0</source>
-        <translation>Alt+0</translation>
-    </message>
-    <message>
-        <source>D&amp;one</source>
-        <translation>Kés&amp;z</translation>
-    </message>
-    <message>
-        <source>Mark item as done</source>
-        <translation>Az elem készre jelölése</translation>
-    </message>
-    <message>
-        <source>Mark this item as done.</source>
-        <translation>Az elem készre jelölése.</translation>
-    </message>
-    <message>
-        <source>Find P&amp;revious</source>
-        <translation>E&amp;lőző keresése</translation>
-    </message>
-    <message>
-        <source>Shift+F3</source>
-        <translation>Shift+F3</translation>
     </message>
 </context>
 <context>
@@ -1388,31 +1245,31 @@ Minden fájl (*)</translation>
     <message>
         <source></source>
         <comment>This is the right panel of the main window.</comment>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Russian</source>
-        <translation type="vanished">Orosz</translation>
+        <translation>Orosz</translation>
     </message>
     <message>
         <source>German</source>
-        <translation type="vanished">Német</translation>
+        <translation>Német</translation>
     </message>
     <message>
         <source>Japanese</source>
-        <translation type="vanished">Japán</translation>
+        <translation>Japán</translation>
     </message>
     <message>
         <source>French</source>
-        <translation type="vanished">Francia</translation>
+        <translation>Francia</translation>
     </message>
     <message>
         <source>Polish</source>
-        <translation type="vanished">Lengyel</translation>
+        <translation>Lengyel</translation>
     </message>
     <message>
         <source>Chinese</source>
-        <translation type="vanished">Kínai</translation>
+        <translation>Kínai</translation>
     </message>
     <message>
         <source>This whole panel allows you to view and edit the translation of some source text.</source>
@@ -1440,27 +1297,15 @@ Minden fájl (*)</translation>
     </message>
     <message>
         <source>This area shows a comment that may guide you, and the context in which the text occurs.</source>
-        <translation>Ez a terület egy olyan megjegyzést jelenít meg, amely a segítségére lehet, és azt a környezetet, amelyben a szöveg előfordul.</translation>
+        <translation>Ez a terület olyan egy megjegyzést jelenít meg, amely a segítségére lehet, és azt a környezetet, amelyben a szöveg előfordul.</translation>
     </message>
     <message>
         <source>Here you can enter comments for your own use. They have no effect on the translated applications.</source>
         <translation>Itt írhat be saját használatú megjegyzéseket. Ezek nincsenek hatással a lefordított alkalmazásokra.</translation>
     </message>
     <message>
-        <source>Translation to %1 (%2)</source>
-        <translation>Fordítás %1 (%2) nyelvre</translation>
-    </message>
-    <message>
-        <source>Translation to %1</source>
-        <translation>Fordítás %1 nyelvre</translation>
-    </message>
-    <message>
-        <source>Translator comments for %1</source>
-        <translation>Fordítói megjegyzések %1 nyelvhez</translation>
-    </message>
-    <message>
         <source>%1 translation (%2)</source>
-        <translation type="vanished">%1 fordítás (%2)</translation>
+        <translation>%1 fordítás (%2)</translation>
     </message>
     <message>
         <source>This is where you can enter or modify the translation of the above source text.</source>
@@ -1468,11 +1313,11 @@ Minden fájl (*)</translation>
     </message>
     <message>
         <source>%1 translation</source>
-        <translation type="vanished">%1 fordítás</translation>
+        <translation>%1 fordítás</translation>
     </message>
     <message>
         <source>%1 translator comments</source>
-        <translation type="vanished">%1 fordítói megjegyzés</translation>
+        <translation>%1 fordítói megjegyzés</translation>
     </message>
     <message>
         <source>&apos;%1&apos;
@@ -1498,12 +1343,6 @@ Sor: %2</translation>
     <message>
         <source>&lt;unnamed context&gt;</source>
         <translation>&lt;névtelen környezet&gt;</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n unfinished message(s) left.</source>
-        <translation>
-            <numerusform>%n befejezetlen üzenet van hátra.</numerusform>
-        </translation>
     </message>
 </context>
 <context>
@@ -1586,7 +1425,7 @@ Sor: %2</translation>
     <message>
         <source></source>
         <comment>Go to Phrase &gt; Edit Phrase Book... The dialog that pops up is a PhraseBookBox.</comment>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>(New Entry)</source>
@@ -1631,24 +1470,12 @@ Sor: %2</translation>
         <translation>Szerkesztés</translation>
     </message>
     <message>
-        <source>Go to</source>
-        <translation>Ugrás ide</translation>
-    </message>
-    <message>
-        <source>Guess from &apos;%1&apos; (%2)</source>
-        <translation>Tipp innen: „%1” (%2)</translation>
-    </message>
-    <message>
-        <source>Guess from &apos;%1&apos;</source>
-        <translation>Tipp innen: „%1”</translation>
-    </message>
-    <message>
         <source>Guess (%1)</source>
-        <translation type="vanished">Tipp (%1)</translation>
+        <translation>Tipp (%1)</translation>
     </message>
     <message>
         <source>Guess</source>
-        <translation type="vanished">Tipp</translation>
+        <translation>Tipp</translation>
     </message>
 </context>
 <context>
@@ -1674,7 +1501,7 @@ Sor: %2</translation>
     </message>
     <message>
         <source>&lt;i&gt;File %1 not available&lt;/i&gt;</source>
-        <translation>&lt;i&gt;A(z) %1 fájl nem érhető el&lt;/i&gt;</translation>
+        <translation>&lt;i&gt;A(z) %1 nem érhető el&lt;/i&gt;</translation>
     </message>
     <message>
         <source>&lt;i&gt;File %1 not readable&lt;/i&gt;</source>
@@ -1714,34 +1541,6 @@ Sor: %2</translation>
     <message>
         <source>Characters (with spaces):</source>
         <translation>Karakterek (szóközökkel):</translation>
-    </message>
-    <message>
-        <source>Unfinished</source>
-        <translation>Befejezetlen</translation>
-    </message>
-    <message>
-        <source>Total translatable messages:</source>
-        <translation>Összes lefordítható üzenet:</translation>
-    </message>
-    <message>
-        <source>Total finished:</source>
-        <translation>Összes befejezett:</translation>
-    </message>
-    <message>
-        <source>Without warnings:</source>
-        <translation>Figyelmeztetés nélkül:</translation>
-    </message>
-    <message>
-        <source>With warnings:</source>
-        <translation>Figyelmeztetésekkel:</translation>
-    </message>
-    <message>
-        <source>Unfinished:</source>
-        <translation>Befejezetlen:</translation>
-    </message>
-    <message>
-        <source>Total messages including obsolete:</source>
-        <translation>Összes üzenet, elavultakkal együtt:</translation>
     </message>
 </context>
 <context>
@@ -1822,21 +1621,12 @@ Sor: %2</translation>
         <translation>Célnyelv</translation>
     </message>
     <message>
-        <source>%1 (%2)</source>
-        <extracomment>&lt;english&gt; (&lt;endonym&gt;) (language names)</extracomment>
-        <translation>%1 (%2)</translation>
-    </message>
-    <message>
         <source>Settings for &apos;%1&apos; - Qt Linguist</source>
         <translation>„%1” beállításai – Qt Linguist</translation>
     </message>
     <message>
-        <source>Any Territory</source>
-        <translation>Bármely terület</translation>
-    </message>
-    <message>
         <source>Any Country</source>
-        <translation type="vanished">Bármely ország</translation>
+        <translation>Bármely ország</translation>
     </message>
 </context>
 </TS>

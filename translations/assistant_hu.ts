@@ -15,18 +15,14 @@
         <translation>Figyelmeztetés</translation>
     </message>
     <message>
-        <source>Unable to launch external application.</source>
-        <translation>Nem indítható el a külső alkalmazás.</translation>
-    </message>
-    <message>
         <source>Unable to launch external application.
 </source>
-        <translation type="vanished">Nem indítható el a külső alkalmazás.
+        <translation>Nem indítható el a külső alkalmazás.
 </translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="vanished">OK</translation>
+        <translation>OK</translation>
     </message>
 </context>
 <context>
@@ -37,7 +33,7 @@
     </message>
     <message>
         <source>Error: %1</source>
-        <translation type="vanished">Hiba: %1</translation>
+        <translation>Hiba: %1</translation>
     </message>
     <message>
         <source>Could not register documentation file
@@ -81,7 +77,7 @@ Oka:
     </message>
     <message>
         <source>Cannot load sqlite database driver!</source>
-        <translation>Nem lehet betölteni az sqlite adatbázis-illesztőprogramot!</translation>
+        <translation>Nem lehet betölteni az sqlite adatbázis-meghajtót!</translation>
     </message>
 </context>
 <context>
@@ -217,7 +213,7 @@ Oka:
     </message>
     <message>
         <source>Qt Assistant</source>
-        <translation>Qt Assistant</translation>
+        <translation>Qt Asszisztens</translation>
     </message>
     <message>
         <source>Unable to save bookmarks.</source>
@@ -330,7 +326,7 @@ Oka:
                            status message.
 -help                      Displays this help.
 </source>
-        <translation type="vanished">Használat: assistant [kapcsolók]
+        <translation>Használat: assistant [kapcsolók]
 
 -collectionFile fájl       A megadott gyűjteményfájl
                            használata az alapértelmezett helyett
@@ -358,70 +354,6 @@ Oka:
 -quiet                     Nem jelenít meg semmilyen hiba- vagy
                            állapotüzenetet.
 -help                      Megjeleníti ezt a súgót.</translation>
-    </message>
-    <message>
-        <source>Usage: assistant [Options]
-
--collectionFile file       Uses the specified collection
-                           file instead of the default one
--showUrl url               Shows the document with the
-                           url.
--enableRemoteControl       Enables Assistant to be
-                           remotely controlled.
--show widget               Shows the specified dockwidget
-                           which can be &quot;contents&quot;, &quot;index&quot;,
-                           &quot;bookmarks&quot; or &quot;search&quot;.
--activate widget           Activates the specified dockwidget
-                           which can be &quot;contents&quot;, &quot;index&quot;,
-                           &quot;bookmarks&quot; or &quot;search&quot;.
--hide widget               Hides the specified dockwidget
-                           which can be &quot;contents&quot;, &quot;index&quot;
-                           &quot;bookmarks&quot; or &quot;search&quot;.
--register helpFile         Registers the specified help file
-                           (.qch) in the given collection
-                           file.
--unregister helpFile       Unregisters the specified help file
-                           (.qch) from the give collection
-                           file.
--setCurrentFilter filter   Set the filter as the active filter.
--remove-search-index       Removes the full text search index.
--rebuild-search-index      Obsolete. Use -remove-search-index instead.
-                           Removes the full text search index.
-                           It will be rebuilt on next Assistant run.
--quiet                     Does not display any error or
-                           status message.
--help                      Displays this help.
-</source>
-        <translation>Használat: assistant [kapcsolók]
-
--collectionFile fájl       A megadott gyűjteményfájl
-                           használata az alapértelmezett helyett
--showUrl url               Megjeleníti az url-ben
-                           megadott dokumentumot.
--enableRemoteControl       Engedélyezi, hogy az Assistsantot
-                           távvezéreljék.
--show widget               Megjeleníti a megadott dokk felületi elemet,
-                           amely „contents”, „index”,
-                           „bookmarks” vagy „search” lehet.
--activate widget           Aktiválja a megadott dokk felületi elemet,
-                           amely „contents”, „index”,
-                           „bookmarks” vagy „search” lehet.
--hide widget               Elrejti a megadott dokk felületi elemet,
-                           amely „contents”, „index”
-                           „bookmarks” vagy „search” lehet.
--register súgófájl         Regisztrálja a megadott súgófájlt
-                           (.qch) az adott gyűjteményfájlba.
--unregister súgófájl       Eltávolítja a megadott súgófájlt
-                           (.qch) az adott gyűjteményfájlból.
--setCurrentFilter szűrő    Beállítja a szűrőt aktív szűrőként.
--remove-search-index       Törli a szabad-szavas szöveg keresési indexet.
--rebuild-search-index      Elavult. Használja a -remove-search-index kapcsolót helyette.
-                           Törli a szabad-szavas szöveg keresési indexet.
-                           Az index az Assistant következő újraindulásakor lesz újraépítve.
--quiet                     Nem jelenít meg semmilyen hiba- vagy
-                           állapotüzenetet.
--help                      Megjeleníti ezt a súgót.
-</translation>
     </message>
     <message>
         <source>Unknown option: %1</source>
@@ -487,11 +419,11 @@ Oka:
     <name>FilterNameDialogClass</name>
     <message>
         <source>Add Filter Name</source>
-        <translation type="vanished">Szűrőnév hozzáadása</translation>
+        <translation>Szűrőnév hozzáadása</translation>
     </message>
     <message>
         <source>Filter Name:</source>
-        <translation type="vanished">Szűrő neve:</translation>
+        <translation>Szűrő neve:</translation>
     </message>
 </context>
 <context>
@@ -583,7 +515,7 @@ Oka:
     <name>HelpEngineWrapper</name>
     <message>
         <source>Unfiltered</source>
-        <translation type="vanished">Szűretlen</translation>
+        <translation>Szűretlen</translation>
     </message>
 </context>
 <context>
@@ -594,11 +526,7 @@ Oka:
     </message>
     <message>
         <source>The page could not be found!</source>
-        <translation type="vanished">Az oldal nem található!</translation>
-    </message>
-    <message>
-        <source>The page could not be found</source>
-        <translation>Az oldal nem található</translation>
+        <translation>Az oldal nem található!</translation>
     </message>
     <message>
         <source>Please make sure that you have all documentation sets installed.</source>
@@ -618,27 +546,27 @@ Oka:
     </message>
     <message>
         <source>Open Link</source>
-        <translation type="vanished">Hivatkozás megnyitása</translation>
+        <translation>Hivatkozás megnyitása</translation>
     </message>
     <message>
         <source>Open Link in New Tab	Ctrl+LMB</source>
-        <translation type="vanished">Hivatkozás megnyitása új lapon	Ctrl+bal egérgomb</translation>
+        <translation>Hivatkozás megnyitása új lapon	Ctrl+bal egérgomb</translation>
     </message>
     <message>
         <source>Copy &amp;Link Location</source>
-        <translation type="vanished">&amp;Hivatkozás helyének másolása</translation>
+        <translation>&amp;Hivatkozás helyének másolása</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation type="vanished">Másolás</translation>
+        <translation>Másolás</translation>
     </message>
     <message>
         <source>Reload</source>
-        <translation type="vanished">Újratöltés</translation>
+        <translation>Újratöltés</translation>
     </message>
     <message>
         <source>Open Link in New Page</source>
-        <translation type="vanished">Hivatkozás megnyitása új oldalon</translation>
+        <translation>Hivatkozás megnyitása új oldalon</translation>
     </message>
 </context>
 <context>
@@ -680,7 +608,7 @@ Oka:
     </message>
     <message>
         <source>Qt Assistant</source>
-        <translation>Qt Assistant</translation>
+        <translation>Qt Asszisztens</translation>
     </message>
     <message>
         <source>Bookmark Toolbar</source>
@@ -840,7 +768,7 @@ Oka:
     </message>
     <message>
         <source>Filtered by:</source>
-        <translation>Szűrés alapja:</translation>
+        <translation>Szűrés alapja: </translation>
     </message>
     <message>
         <source>Address Toolbar</source>
@@ -855,20 +783,12 @@ Oka:
         <translation>Nem található a hozzárendelt tartalomelem.</translation>
     </message>
     <message>
-        <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;p&gt;Browser: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) The Qt Company Ltd. and other contributors.&lt;/p&gt;</source>
-        <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Verzió: %2&lt;/p&gt;&lt;p&gt;Böngésző: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) A The Qt Company Ltd. és más közreműködők.&lt;/p&gt;</translation>
-    </message>
-    <message>
         <source>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;Version %2&lt;/p&gt;&lt;p&gt;Browser: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) %4 The Qt Company Ltd.&lt;/p&gt;</source>
-        <translation type="vanished">&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;%2. verzió&lt;/p&gt;&lt;p&gt;Böngésző: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) %4 The Qt Company Ltd.&lt;/p&gt;</translation>
+        <translation>&lt;center&gt;&lt;h3&gt;%1&lt;/h3&gt;&lt;p&gt;%2. verzió&lt;/p&gt;&lt;p&gt;Böngésző: %3&lt;/p&gt;&lt;/center&gt;&lt;p&gt;Copyright (C) %4 The Qt Company Ltd.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>About %1</source>
         <translation>%1 névjegye</translation>
-    </message>
-    <message>
-        <source>Unfiltered</source>
-        <translation>Szűretlen</translation>
     </message>
     <message>
         <source>Updating search index</source>
@@ -894,35 +814,35 @@ Oka:
     <name>PreferencesDialog</name>
     <message>
         <source>Add Documentation</source>
-        <translation type="vanished">Dokumentáció hozzáadása</translation>
+        <translation>Dokumentáció hozzáadása</translation>
     </message>
     <message>
         <source>Qt Compressed Help Files (*.qch)</source>
-        <translation type="vanished">Qt tömörített súgófájlok (*.qch)</translation>
+        <translation>Qt tömörített súgófájlok (*.qch)</translation>
     </message>
     <message>
         <source>The namespace %1 is already registered!</source>
-        <translation type="vanished">A(z) %1 névtér már regisztrálva van!</translation>
+        <translation>A(z) %1 névtér már regisztrálva van!</translation>
     </message>
     <message>
         <source>The specified file is not a valid Qt Help File!</source>
-        <translation type="vanished">A megadott fájl nem érvényes Qt súgófájl!</translation>
+        <translation>A megadott fájl nem érvényes Qt súgófájl!</translation>
     </message>
     <message>
         <source>Remove Documentation</source>
-        <translation type="vanished">Dokumentáció eltávolítása</translation>
+        <translation>Dokumentáció eltávolítása</translation>
     </message>
     <message>
         <source>Some documents currently opened in Assistant reference the documentation you are attempting to remove. Removing the documentation will close those documents.</source>
-        <translation type="vanished">Az Asszisztensben jelenleg néhány megnyitott dokumentum hivatkozik arra dokumentációra, amelyet eltávolítani próbál. A dokumentáció eltávolítása be fogja zárni azokat a dokumentumokat.</translation>
+        <translation>Az Asszisztensben jelenleg néhány megnyitott dokumentum hivatkozik arra dokumentációra, amelyet eltávolítani próbál. A dokumentáció eltávolítása be fogja zárni azokat a dokumentumokat.</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="vanished">Mégse</translation>
+        <translation>Mégse</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="vanished">OK</translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Use custom settings</source>
@@ -957,23 +877,23 @@ Oka:
     </message>
     <message>
         <source>Filter:</source>
-        <translation type="vanished">Szűrő:</translation>
+        <translation>Szűrő:</translation>
     </message>
     <message>
         <source>Attributes:</source>
-        <translation type="vanished">Attribútumok:</translation>
+        <translation>Attribútumok:</translation>
     </message>
     <message>
         <source>1</source>
-        <translation type="vanished">1</translation>
+        <translation>1</translation>
     </message>
     <message>
         <source>Add</source>
-        <translation type="vanished">Hozzáadás</translation>
+        <translation>Hozzáadás</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation type="vanished">Eltávolítás</translation>
+        <translation>Eltávolítás</translation>
     </message>
     <message>
         <source>Documentation</source>
@@ -981,11 +901,11 @@ Oka:
     </message>
     <message>
         <source>Registered Documentation:</source>
-        <translation type="vanished">Regisztrált dokumentáció:</translation>
+        <translation>Regisztrált dokumentáció:</translation>
     </message>
     <message>
         <source>Add...</source>
-        <translation type="vanished">Hozzáadás…</translation>
+        <translation>Hozzáadás…</translation>
     </message>
     <message>
         <source>Options</source>
@@ -1089,7 +1009,7 @@ Oka:
     <name>TopicChooser</name>
     <message>
         <source>Choose Topic</source>
-        <translation>Téma választása</translation>
+        <translation>Téma választása </translation>
     </message>
     <message>
         <source>&amp;Topics</source>
@@ -1110,64 +1030,6 @@ Oka:
     <message>
         <source>Choose a topic for &lt;b&gt;%1&lt;/b&gt;:</source>
         <translation>Téma választása ehhez: &lt;b&gt;%1&lt;/b&gt;:</translation>
-    </message>
-</context>
-<context>
-    <name>HelpDocSettingsWidget</name>
-    <message>
-        <source>Form</source>
-        <translation>Űrlap</translation>
-    </message>
-    <message>
-        <source>Registered Documentation</source>
-        <translation>Regisztrált dokumentáció</translation>
-    </message>
-    <message>
-        <source>&lt;Filter&gt;</source>
-        <translation>&lt;Szűrő&gt;</translation>
-    </message>
-    <message>
-        <source>Add...</source>
-        <translation>Hozzáadás…</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation>Eltávolítás</translation>
-    </message>
-    <message>
-        <source>Add Documentation</source>
-        <translation>Dokumentáció hozzáadása</translation>
-    </message>
-    <message>
-        <source>Qt Compressed Help Files (*.qch)</source>
-        <translation>Qt tömörített súgófájlok (*.qch)</translation>
-    </message>
-</context>
-<context>
-    <name>HelpViewerImpl</name>
-    <message>
-        <source>Open Link</source>
-        <translation>Hivatkozás megnyitása</translation>
-    </message>
-    <message>
-        <source>Open Link in New Tab	Ctrl+LMB</source>
-        <translation>Hivatkozás megnyitása új lapon	Ctrl+bal egérgomb</translation>
-    </message>
-    <message>
-        <source>Copy &amp;Link Location</source>
-        <translation>&amp;Hivatkozás helyének másolása</translation>
-    </message>
-    <message>
-        <source>Copy</source>
-        <translation>Másolás</translation>
-    </message>
-    <message>
-        <source>Reload</source>
-        <translation>Újratöltés</translation>
-    </message>
-    <message>
-        <source>Open Link in New Page</source>
-        <translation>Hivatkozás megnyitása új oldalon</translation>
     </message>
 </context>
 </TS>
