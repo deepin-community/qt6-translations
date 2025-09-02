@@ -1,3 +1,11 @@
+qt6-translations (6.8.0-0deepin1) unstable; urgency=medium
+
+  * Add zh_HK translations and update zh_TW translations
+    - Add Hong Kong Traditional Chinese translation files
+    - Update Taiwan Traditional Chinese translation files
+
+ -- YeShanShan <yeshanshan@uniontech.com>  Tue, 02 Sep 2025 11:28:19 +0800
+
 qt6-translations (6.8.0-0deepin) unstable; urgency=medium
 
   * New upstream release (6.8.0).
